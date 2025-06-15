@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     connection_acquire_timeout: float = 0.1  # 100ms to fail fast
     
     # Rate Limiting - Following load reduction guidelines  
-    rate_limit_per_minute: int = 15  # Reduced from 60 to 15 (middle of 10-20 range)
+    rate_limit_per_minute: int = 30  # Increased from 15 to 30 (above recommended 10-20 range)
     min_request_interval_ms: int = 500  # Minimum 500ms between requests
     
     # Pagination - Following load reduction guidelines

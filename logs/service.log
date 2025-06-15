@@ -314,3 +314,232 @@ INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/invoices?from=2025-
 INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=1 HTTP/1.1" 500 Internal Server Error
 INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers HTTP/1.1" 500 Internal Server Error
 INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=1 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/health HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/health HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 503 Service Unavailable
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 503 Service Unavailable
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 503 Service Unavailable
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/health HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/invoices?from=2025-06-12&to=2025-06-15&limit=100&offset=0 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 500 Internal Server Error
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QUZSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QkFHMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QlJJMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q0hFMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q09EMDEx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=REVCQUxB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RVVSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RlJZMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SEFOMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SlZEQ09N HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=S09TS0FT HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TUFMRUtB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TU9QMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/invoices?from=2025-06-09&to=2025-06-15&limit=100&offset=0 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=1 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=10 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/invoices?from=2025-06-14&to=2025-06-15&limit=1 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=1 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=1 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QUZSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QkFHMDAx HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QkFHMDAx HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QkFHMDAx HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QUZSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QkFHMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QlJJMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q0hFMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q09EMDEx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=REVCQUxB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RVVSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RlJZMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SEFOMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SlZEQ09N HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=S09TS0FT HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TUFMRUtB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TU9QMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QUZSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QkFHMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QlJJMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q0hFMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q09EMDEx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=REVCQUxB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RVVSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RlJZMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SEFOMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SlZEQ09N HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=S09TS0FT HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TUFMRUtB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TU9QMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=UElOMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=UElOMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=UE9SMDA2 HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=UE9SMDA2 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Uk9ZMDAz HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=U1BBMDEx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=U1RSMDAx HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=U1RSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=VFdPMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=V0hPMDAx HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=V0hPMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QUZSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QkFHMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QlJJMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q0hFMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q09EMDEx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=REVCQUxB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RVVSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RlJZMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SEFOMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SlZEQ09N HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=S09TS0FT HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TUFMRUtB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TU9QMDAx HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 429 Too Many Requests
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QUZSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QkFHMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QlJJMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q0hFMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q09EMDEx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=REVCQUxB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RVVSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RlJZMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SEFOMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SlZEQ09N HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=S09TS0FT HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TUFMRUtB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TU9QMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=UElOMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=UE9SMDA2 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Uk9ZMDAz HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=U1BBMDEx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=U1RSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=VFdPMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=V0hPMDAx HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=5 HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers/AFR002 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QUZSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QkFHMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=QlJJMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q0hFMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Q09EMDEx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=REVCQUxB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RVVSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=RlJZMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SEFOMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=SlZEQ09N HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=S09TS0FT HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TUFMRUtB HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=TU9QMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=T0tGMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=UElOMDAy HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=UE9SMDA2 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=Uk9ZMDAz HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=U1BBMDEx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=U1RSMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=VFdPMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=50&cursor=V0hPMDAx HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers/01ALLS HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers/AFR002 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers/AFR002 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers/AFR002 HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers?limit=20 HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/balances HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/balances HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/balances HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/balances?account_code=AFR002 HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/balances?account_code=AFR002 HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/balances?account_code=AFR002 HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/balances HTTP/1.1" 404 Not Found
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers/AFR002 HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     2c0f:ef18:448b:0:9069:6c96:a4ae:40a6:0 - "GET /api/customers/AFR002 HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/invoices?from=2025-06-09&to=2025-06-15&limit=100&offset=0 HTTP/1.1" 200 OK
+INFO:     13.247.230.43:0 - "GET /api/ping HTTP/1.1" 200 OK

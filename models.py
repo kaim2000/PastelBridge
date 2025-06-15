@@ -20,169 +20,169 @@ class InvoiceQuery(BaseModel):
 
 # CustomerMaster models
 class CustomerMaster(BaseModel):
-    category: int
-    customer_code: str
-    customer_desc: str
+    customer_code: str  # This remains required
+    category: Optional[int] = None
+    customer_desc: Optional[str] = None
     
     # Balance fields - This Year (01-13)
-    balance_this_01: float
-    balance_this_02: float
-    balance_this_03: float
-    balance_this_04: float
-    balance_this_05: float
-    balance_this_06: float
-    balance_this_07: float
-    balance_this_08: float
-    balance_this_09: float
-    balance_this_10: float
-    balance_this_11: float
-    balance_this_12: float
-    balance_this_13: float
+    balance_this_01: Optional[float] = None
+    balance_this_02: Optional[float] = None
+    balance_this_03: Optional[float] = None
+    balance_this_04: Optional[float] = None
+    balance_this_05: Optional[float] = None
+    balance_this_06: Optional[float] = None
+    balance_this_07: Optional[float] = None
+    balance_this_08: Optional[float] = None
+    balance_this_09: Optional[float] = None
+    balance_this_10: Optional[float] = None
+    balance_this_11: Optional[float] = None
+    balance_this_12: Optional[float] = None
+    balance_this_13: Optional[float] = None
     
     # Balance fields - Last Year (01-13)
-    balance_last_01: float
-    balance_last_02: float
-    balance_last_03: float
-    balance_last_04: float
-    balance_last_05: float
-    balance_last_06: float
-    balance_last_07: float
-    balance_last_08: float
-    balance_last_09: float
-    balance_last_10: float
-    balance_last_11: float
-    balance_last_12: float
-    balance_last_13: float
+    balance_last_01: Optional[float] = None
+    balance_last_02: Optional[float] = None
+    balance_last_03: Optional[float] = None
+    balance_last_04: Optional[float] = None
+    balance_last_05: Optional[float] = None
+    balance_last_06: Optional[float] = None
+    balance_last_07: Optional[float] = None
+    balance_last_08: Optional[float] = None
+    balance_last_09: Optional[float] = None
+    balance_last_10: Optional[float] = None
+    balance_last_11: Optional[float] = None
+    balance_last_12: Optional[float] = None
+    balance_last_13: Optional[float] = None
     
     # Sales fields - This Year (01-13)
-    sales_this_01: float
-    sales_this_02: float
-    sales_this_03: float
-    sales_this_04: float
-    sales_this_05: float
-    sales_this_06: float
-    sales_this_07: float
-    sales_this_08: float
-    sales_this_09: float
-    sales_this_10: float
-    sales_this_11: float
-    sales_this_12: float
-    sales_this_13: float
+    sales_this_01: Optional[float] = None
+    sales_this_02: Optional[float] = None
+    sales_this_03: Optional[float] = None
+    sales_this_04: Optional[float] = None
+    sales_this_05: Optional[float] = None
+    sales_this_06: Optional[float] = None
+    sales_this_07: Optional[float] = None
+    sales_this_08: Optional[float] = None
+    sales_this_09: Optional[float] = None
+    sales_this_10: Optional[float] = None
+    sales_this_11: Optional[float] = None
+    sales_this_12: Optional[float] = None
+    sales_this_13: Optional[float] = None
     
     # Sales fields - Last Year (01-13)
-    sales_last_01: float
-    sales_last_02: float
-    sales_last_03: float
-    sales_last_04: float
-    sales_last_05: float
-    sales_last_06: float
-    sales_last_07: float
-    sales_last_08: float
-    sales_last_09: float
-    sales_last_10: float
-    sales_last_11: float
-    sales_last_12: float
-    sales_last_13: float
+    sales_last_01: Optional[float] = None
+    sales_last_02: Optional[float] = None
+    sales_last_03: Optional[float] = None
+    sales_last_04: Optional[float] = None
+    sales_last_05: Optional[float] = None
+    sales_last_06: Optional[float] = None
+    sales_last_07: Optional[float] = None
+    sales_last_08: Optional[float] = None
+    sales_last_09: Optional[float] = None
+    sales_last_10: Optional[float] = None
+    sales_last_11: Optional[float] = None
+    sales_last_12: Optional[float] = None
+    sales_last_13: Optional[float] = None
     
     # Address fields
-    post_address_01: str
-    post_address_02: str
-    post_address_03: str
-    post_address_04: str
-    post_address_05: str
+    post_address_01: Optional[str] = None
+    post_address_02: Optional[str] = None
+    post_address_03: Optional[str] = None
+    post_address_04: Optional[str] = None
+    post_address_05: Optional[str] = None
     
     # Tax and financial fields
-    tax_code: int
-    exempt_ref: str
-    settlement_terms: int
-    payment_terms: int
-    discount: float
-    credit_limit: float
-    interest_after: int
-    price_regime: int
+    tax_code: Optional[int] = None
+    exempt_ref: Optional[str] = None
+    settlement_terms: Optional[int] = None
+    payment_terms: Optional[int] = None
+    discount: Optional[float] = None
+    credit_limit: Optional[float] = None
+    interest_after: Optional[int] = None
+    price_regime: Optional[int] = None
     
     # Transaction info
-    last_cr_date: Optional[date]
-    last_cr_amount: float
+    last_cr_date: Optional[date] = None
+    last_cr_amount: Optional[float] = None
     
     # Flags and settings
-    blocked: int
-    open_item: bool
-    over_ride_tax: int
-    month_or_day: bool
+    blocked: Optional[int] = None
+    open_item: Optional[bool] = None
+    over_ride_tax: Optional[int] = None
+    month_or_day: Optional[bool] = None
     
     # Currency fields
-    country_code: str
-    currency_code: int
+    country_code: Optional[str] = None
+    currency_code: Optional[int] = None
     
     # Currency Balance fields - This Year (01-13)
-    curr_balance_this_01: float
-    curr_balance_this_02: float
-    curr_balance_this_03: float
-    curr_balance_this_04: float
-    curr_balance_this_05: float
-    curr_balance_this_06: float
-    curr_balance_this_07: float
-    curr_balance_this_08: float
-    curr_balance_this_09: float
-    curr_balance_this_10: float
-    curr_balance_this_11: float
-    curr_balance_this_12: float
-    curr_balance_this_13: float
+    curr_balance_this_01: Optional[float] = None
+    curr_balance_this_02: Optional[float] = None
+    curr_balance_this_03: Optional[float] = None
+    curr_balance_this_04: Optional[float] = None
+    curr_balance_this_05: Optional[float] = None
+    curr_balance_this_06: Optional[float] = None
+    curr_balance_this_07: Optional[float] = None
+    curr_balance_this_08: Optional[float] = None
+    curr_balance_this_09: Optional[float] = None
+    curr_balance_this_10: Optional[float] = None
+    curr_balance_this_11: Optional[float] = None
+    curr_balance_this_12: Optional[float] = None
+    curr_balance_this_13: Optional[float] = None
     
     # Currency Balance fields - Last Year (01-13)
-    curr_balance_last_01: float
-    curr_balance_last_02: float
-    curr_balance_last_03: float
-    curr_balance_last_04: float
-    curr_balance_last_05: float
-    curr_balance_last_06: float
-    curr_balance_last_07: float
-    curr_balance_last_08: float
-    curr_balance_last_09: float
-    curr_balance_last_10: float
-    curr_balance_last_11: float
-    curr_balance_last_12: float
-    curr_balance_last_13: float
+    curr_balance_last_01: Optional[float] = None
+    curr_balance_last_02: Optional[float] = None
+    curr_balance_last_03: Optional[float] = None
+    curr_balance_last_04: Optional[float] = None
+    curr_balance_last_05: Optional[float] = None
+    curr_balance_last_06: Optional[float] = None
+    curr_balance_last_07: Optional[float] = None
+    curr_balance_last_08: Optional[float] = None
+    curr_balance_last_09: Optional[float] = None
+    curr_balance_last_10: Optional[float] = None
+    curr_balance_last_11: Optional[float] = None
+    curr_balance_last_12: Optional[float] = None
+    curr_balance_last_13: Optional[float] = None
     
     # User defined fields
-    user_defined_01: str
-    user_defined_02: str
-    user_defined_03: str
-    user_defined_04: str
-    user_defined_05: str
+    user_defined_01: Optional[str] = None
+    user_defined_02: Optional[str] = None
+    user_defined_03: Optional[str] = None
+    user_defined_04: Optional[str] = None
+    user_defined_05: Optional[str] = None
     
     # Ageing fields
-    ageing_01: float
-    ageing_02: float
-    ageing_03: float
-    ageing_04: float
-    ageing_05: float
+    ageing_01: Optional[float] = None
+    ageing_02: Optional[float] = None
+    ageing_03: Optional[float] = None
+    ageing_04: Optional[float] = None
+    ageing_05: Optional[float] = None
     
     # Other fields
-    interest_per: str
-    freight_01: str
-    ship: str
-    updated_on: Optional[datetime]
-    cash_account: bool
-    create_date: Optional[date]
+    interest_per: Optional[str] = None
+    freight_01: Optional[str] = None
+    ship: Optional[str] = None
+    updated_on: Optional[datetime] = None
+    cash_account: Optional[bool] = None
+    create_date: Optional[date] = None
     
     # Additional name fields
-    cust_name: str
-    cust_surname: str
-    cust_id: str
+    cust_name: Optional[str] = None
+    cust_surname: Optional[str] = None
+    cust_id: Optional[str] = None
     
     # Bank details
-    bank_name: str
-    bank_type: int
-    bank_branch: str
-    bank_acc_number: str
-    bank_acc_relation: int
+    bank_name: Optional[str] = None
+    bank_type: Optional[int] = None
+    bank_branch: Optional[str] = None
+    bank_acc_number: Optional[str] = None
+    bank_acc_relation: Optional[int] = None
     
     # Additional IDs
-    guid: str
-    third_party_id: str
-    passport_number: str
+    guid: Optional[str] = None
+    third_party_id: Optional[str] = None
+    passport_number: Optional[str] = None
     
     class Config:
         from_attributes = True
