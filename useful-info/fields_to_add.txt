@@ -1,0 +1,130 @@
+Sample data:
+  Category: 0
+  CustomerCode: 01ALLS
+  CustomerDesc: Alles Vars                              
+  BalanceThis01: 0.0
+  BalanceThis02: 0.0
+  BalanceThis03: 0.0
+  BalanceThis04: 0.0
+  BalanceThis05: 0.0
+  BalanceThis06: 0.0
+  BalanceThis07: 0.0
+  BalanceThis08: 0.0
+  BalanceThis09: 0.0
+  BalanceThis10: 0.0
+  BalanceThis11: 0.0
+  BalanceThis12: 0.0
+  BalanceThis13: 0.0
+  BalanceLast01: 0.0
+  BalanceLast02: 0.0
+  BalanceLast03: 0.0
+  BalanceLast04: 0.0
+  BalanceLast05: 0.0
+  BalanceLast06: 0.0
+  BalanceLast07: 0.0
+  BalanceLast08: 0.0
+  BalanceLast09: 0.0
+  BalanceLast10: 0.0
+  BalanceLast11: 0.0
+  BalanceLast12: 0.0
+  BalanceLast13: 0.0
+  SalesThis01: 0.0
+  SalesThis02: 0.0
+  SalesThis03: 0.0
+  SalesThis04: 0.0
+  SalesThis05: 0.0
+  SalesThis06: 0.0
+  SalesThis07: 0.0
+  SalesThis08: 0.0
+  SalesThis09: 0.0
+  SalesThis10: 0.0
+  SalesThis11: 0.0
+  SalesThis12: 0.0
+  SalesThis13: 0.0
+  SalesLast01: 0.0
+  SalesLast02: 0.0
+  SalesLast03: 0.0
+  SalesLast04: 0.0
+  SalesLast05: 0.0
+  SalesLast06: 0.0
+  SalesLast07: 0.0
+  SalesLast08: 0.0
+  SalesLast09: 0.0
+  SalesLast10: 0.0
+  SalesLast11: 0.0
+  SalesLast12: 0.0
+  SalesLast13: 0.0
+  PostAddress01: Alles Vars - Suiker Rekening  
+  PostAddress02: 120 Nuwestraat                
+  PostAddress03: Beaufort-Wes                  
+  PostAddress04: 6970                          
+  PostAddress05: PAYMENT TERMS : COD           
+  TaxCode: 0
+  ExemptRef: 4060161132      
+  SettlementTerms: 0
+  PaymentTerms: 1
+  Discount: 0
+  LastCrDate: 2023-02-09
+  LastCrAmount: 16777.6
+  Blocked: 0
+  OpenItem: True
+  OverRideTax: 0
+  MonthOrDay: True
+  CountryCode:    
+  CurrencyCode: 0
+  CreditLimit: 30000
+  InterestAfter: -1
+  PriceRegime: 2
+  CurrBalanceThis01: 0.0
+  CurrBalanceThis02: 0.0
+  CurrBalanceThis03: 0.0
+  CurrBalanceThis04: 0.0
+  CurrBalanceThis05: 0.0
+  CurrBalanceThis06: 0.0
+  CurrBalanceThis07: 0.0
+  CurrBalanceThis08: 0.0
+  CurrBalanceThis09: 0.0
+  CurrBalanceThis10: 0.0
+  CurrBalanceThis11: 0.0
+  CurrBalanceThis12: 0.0
+  CurrBalanceThis13: 0.0
+  CurrBalanceLast01: 0.0
+  CurrBalanceLast02: 0.0
+  CurrBalanceLast03: 0.0
+  CurrBalanceLast04: 0.0
+  CurrBalanceLast05: 0.0
+  CurrBalanceLast06: 0.0
+  CurrBalanceLast07: 0.0
+  CurrBalanceLast08: 0.0
+  CurrBalanceLast09: 0.0
+  CurrBalanceLast10: 0.0
+  CurrBalanceLast11: 0.0
+  CurrBalanceLast12: 0.0
+  CurrBalanceLast13: 0.0
+  UserDefined01:                 
+  UserDefined02:                 
+  UserDefined03:                 
+  UserDefined04:                 
+  UserDefined05:                 
+  Ageing01: 0.0
+  Ageing02: 0.0
+  Ageing03: 0.0
+  Ageing04: 0.0
+  Ageing05: 0.0
+  InterestPer: NNNNNNNNNNNNN
+  Freight01:           
+  Ship:                 
+  UpdatedOn: 28/03/2025 12:54:33
+  CashAccount: False
+  CreateDate: 2013-06-21
+  CustName:                                                   
+  CustSurname:                                                   
+  CustID:                     
+  BankName:                                                   
+  BankType: 0
+  BankBranch:           
+  BankAccNumber:                     
+  GUID: B3C7C8BA45A287B3D90503B4E53D4F27
+  BankAccRelation: 1
+  ThirdPartyID:                     
+  PassportNumber:    

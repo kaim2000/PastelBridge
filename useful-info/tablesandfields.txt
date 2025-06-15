@@ -1,0 +1,607 @@
+# API Load Reduction Instructions for Pastel Bridge.
+
+## Introduction
+
+Pastel Bridge is being used to serve data from the company Desktop Accounting system (Pastel) to the company's CRM. The CRM requests data via the API on a scheduled basis and stores it in staging tables in the CRM to then serve to CRM users as needed.
+
+## Core Principles
+- **Pastel users take priority** - The API must not interfere with desktop accounting operations
+- **Slow is acceptable** - Better to have a slow API than impact Pastel performance
+- **Scheduled syncs only** - No real-time queries needed since CRM maintains its own copy
+
+## Required Changes
+
+### 1. Connection Pool Configuration
+- **Reduce max connections to 1** - Single connection prevents resource competition
+- **Set aggressive timeouts (5-10 seconds)** - Fail fast if Pastel is busy
+- **Add connection acquire timeout (100ms)** - Don't wait for connections, return 503 immediately
+
+
+### 3. Aggressive Rate Limiting
+- **Reduce request limits to 10-20 per minute** - Current 60/min is too high
+- **Add inter-request delays** - Minimum 500ms between database queries
+
+### 4. Pagination Controls
+- **Reduce max page size to 50-100 records** - Current 5000 is too large
+- **Make pagination mandatory** - No option to retrieve all records at once
+- **Use cursor-based pagination** - More efficient than offset for large datasets
+- **Return consistent page sizes** - Helps CRM predict sync duration
+
+### 5. Query Optimization
+- **Select only required columns** - Don't use SELECT *
+- **Add NOLOCK hints where safe** - Reduce lock contention for read queries
+- **Order by indexed columns** - Use DocumentNumber not DocumentDate for sorting
+- **Avoid complex joins** - Break into multiple simple queries if needed
+
+### 7. Monitoring and Circuit Breakers
+- **Log query execution time** - Alert if queries exceed 1-2 seconds
+- **Implement circuit breaker** - Temporarily disable API if Pastel response times degrade
+
+### 8. API Response Changes
+- **Always include sync metadata** - Timestamp, record count, next cursor, estimated remaining
+- **Add warning headers** - X-Load-High, X-Retry-After, X-Preferred-Schedule
+- **Return partial results on timeout** - Better than failing entire request
+
+### 9. Configuration Recommendations
+- **Make all limits configurable via environment variables** - Easy runtime adjustments
+- **Add kill switch** - Emergency API disable without stopping service
+- **Implement request priority** - Historical data = low priority, recent data = medium priority
+- **Document impact** - Clear warnings about performance implications of each endpoint
+
+## What NOT to Do
+- Don't implement caching (unnecessary given architecture)
+- Don't increase connection pools
+- Don't allow arbitrary date ranges
+- Don't optimize for speed over stability
+- Don't run multiple workers
+
+## Success Metrics
+- Zero reported Pastel slowdowns during API usage
+- Query execution time < 1 second average
+- No database locks held > 100ms
+- API availability: 503s during business hours are acceptable
+Checking table: CustomerMaster
+==================================================
+Columns:
+  - Category
+  - CustomerCode
+  - CustomerDesc
+  - BalanceThis01
+  - BalanceThis02
+  - BalanceThis03
+  - BalanceThis04
+  - BalanceThis05
+  - BalanceThis06
+  - BalanceThis07
+  - BalanceThis08
+  - BalanceThis09
+  - BalanceThis10
+  - BalanceThis11
+  - BalanceThis12
+  - BalanceThis13
+  - BalanceLast01
+  - BalanceLast02
+  - BalanceLast03
+  - BalanceLast04
+  - BalanceLast05
+  - BalanceLast06
+  - BalanceLast07
+  - BalanceLast08
+  - BalanceLast09
+  - BalanceLast10
+  - BalanceLast11
+  - BalanceLast12
+  - BalanceLast13
+  - SalesThis01
+  - SalesThis02
+  - SalesThis03
+  - SalesThis04
+  - SalesThis05
+  - SalesThis06
+  - SalesThis07
+  - SalesThis08
+  - SalesThis09
+  - SalesThis10
+  - SalesThis11
+  - SalesThis12
+  - SalesThis13
+  - SalesLast01
+  - SalesLast02
+  - SalesLast03
+  - SalesLast04
+  - SalesLast05
+  - SalesLast06
+  - SalesLast07
+  - SalesLast08
+  - SalesLast09
+  - SalesLast10
+  - SalesLast11
+  - SalesLast12
+  - SalesLast13
+  - PostAddress01
+  - PostAddress02
+  - PostAddress03
+  - PostAddress04
+  - PostAddress05
+  - TaxCode
+  - ExemptRef
+  - SettlementTerms
+  - PaymentTerms
+  - Discount
+  - LastCrDate
+  - LastCrAmount
+  - Blocked
+  - OpenItem
+  - OverRideTax
+  - MonthOrDay
+  - IncExc
+  - CountryCode
+  - CurrencyCode
+  - CreditLimit
+  - InterestAfter
+  - PriceRegime
+  - UseAgedMessages
+  - CurrBalanceThis01
+  - CurrBalanceThis02
+  - CurrBalanceThis03
+  - CurrBalanceThis04
+  - CurrBalanceThis05
+  - CurrBalanceThis06
+  - CurrBalanceThis07
+  - CurrBalanceThis08
+  - CurrBalanceThis09
+  - CurrBalanceThis10
+  - CurrBalanceThis11
+  - CurrBalanceThis12
+  - CurrBalanceThis13
+  - CurrBalanceLast01
+  - CurrBalanceLast02
+  - CurrBalanceLast03
+  - CurrBalanceLast04
+  - CurrBalanceLast05
+  - CurrBalanceLast06
+  - CurrBalanceLast07
+  - CurrBalanceLast08
+  - CurrBalanceLast09
+  - CurrBalanceLast10
+  - CurrBalanceLast11
+  - CurrBalanceLast12
+  - CurrBalanceLast13
+  - UserDefined01
+  - UserDefined02
+  - UserDefined03
+  - UserDefined04
+  - UserDefined05
+  - Ageing01
+  - Ageing02
+  - Ageing03
+  - Ageing04
+  - Ageing05
+  - StatPrintorEmail
+  - DocPrintorEmail
+  - InterestPer
+  - Freight01
+  - Ship
+  - Password
+  - LinkWeb
+  - LoyaltyProg
+  - LCardNumber
+  - UpdatedOn
+  - CashAccount
+  - AcceptMail
+  - CreateDate
+  - SoleProprietor
+  - CustName
+  - CustSurname
+  - CustID
+  - BankName
+  - BankType
+  - BankBranch
+  - BankAccNumber
+  - GUID
+  - BankAccRelation
+  - ThirdPartyID
+  - PassportNumber
+
+==================================================
+Checking table: DeliveryAddresses
+==================================================
+Columns:
+  - CustomerCode
+  - CustDelivCode
+  - SalesmanCode
+  - Contact
+  - Telephone
+  - Cell
+  - Fax
+  - DelAddress01
+  - DelAddress02
+  - DelAddress03
+  - DelAddress04
+  - DelAddress05
+  - Email
+  - ContactDocs
+  - EmailDocs
+  - ContactStatement
+  - EmailStatement
+
+Checking table: HistoryHeader
+==================================================
+Columns:
+  - DocumentType
+  - DocumentNumber
+  - CustomerCode
+  - DocumentDate
+  - OrderNumber
+  - SalesmanCode
+  - UserID
+  - ExclIncl
+  - Message01
+  - Message02
+  - Message03
+  - DelAddress01
+  - DelAddress02
+  - DelAddress03
+  - DelAddress04
+  - DelAddress05
+  - Terms
+  - ExtraCosts
+  - CostCode
+  - PPeriod
+  - ClosingDate
+  - Telephone
+  - Fax
+  - Contact
+  - CurrencyCode
+  - ExchangeRate
+  - DiscountPercent
+  - Total
+  - FCurrTotal
+  - TotalTax
+  - FCurrTotalTax
+  - TotalCost
+  - InvDeleted
+  - InvPrintStatus
+  - Onhold
+  - GRNMisc
+  - Paid
+  - Freight01
+  - Ship
+  - IsTMBDoc
+  - Spare
+  - Exported
+  - ExportRef
+  - ExportNum
+  - Emailed
+
+
+  Columns:
+  - UserId
+  - DocumentType
+  - DocumentNumber
+  - ItemCode
+  - CustomerCode
+  - SalesmanCode
+  - SearchType
+  - PPeriod
+  - DDate
+  - UnitUsed
+  - TaxType
+  - DiscountType
+  - DiscountPercentage
+  - Description
+  - CostPrice
+  - Qty
+  - UnitPrice
+  - InclusivePrice
+  - FCurrUnitPrice
+  - FCurrInclPrice
+  - TaxAmt
+  - FCurrTaxAmount
+  - DiscountAmount
+  - FCDiscountAmount
+  - CostCode
+  - DateTime
+  - WhichUserDef
+  - Physical
+  - Fixed
+  - ShowQty
+  - LinkNum
+  - LinkedNum
+  - GRNQty
+  - LinkID
+  - MultiStore
+  - IsTMBLine
+  - LinkDocumentType
+  - LinkDocumentNumber
+  - Exported
+  - ExportRef
+  - ExportNum
+  - QtyLeft
+  - CaseLotCode
+  - CaseLotQty
+  - CaseLotRatio
+  - CostSyncDone
+
+
+  Checking table: Inventory
+==================================================
+Columns:
+  - Category
+  - ItemCode
+  - Description
+  - Barcode
+  - DiscountType
+  - Blocked
+  - Fixed
+  - ShowQty
+  - Physical
+  - UnitSize
+  - SalesTaxType
+  - PurchTaxType
+  - GLCode
+  - AllowTax
+  - LinkWeb
+  - SalesCommision
+  - SerialItem
+  - Picture
+  - UserDefText01
+  - UserDefText02
+  - UserDefText03
+  - UserDefNum01
+  - UserDefNum02
+  - UserDefNum03
+  - CommodityCode
+  - NettMass
+  - UpdatedOn
+  - GUID
+
+Sample data:
+  Category: 041
+  ItemCode: 1013001001     
+  Description: SW Stone Ground All Purpose 5*1kg       
+  Barcode:                
+  DiscountType: 3
+  Blocked: 0
+  Fixed: 0
+  ShowQty: 1
+  Physical: 1
+  UnitSize: Bale
+  SalesTaxType: 1
+  PurchTaxType: 4
+  GLCode:        
+  AllowTax: 1
+  LinkWeb:  
+  SalesCommision: 1
+  SerialItem: 0
+  Picture:                
+  UserDefText01:                         
+  UserDefText02:                         
+  UserDefText03:                         
+  UserDefNum01: 0.0
+  UserDefNum02: 0.0
+  UserDefNum03: 0.0
+  CommodityCode:         
+  NettMass: 0.01
+  UpdatedOn: 14/05/2025 12:26:28
+  GUID: 226E5E2544D08E2D2BDA0C8F6FBDA8FE
+
+
+  Checking table: InventoryCategory
+==================================================
+Columns:
+  - ICCode
+  - ICDesc
+
+Sample data:
+  ICCode: 001
+  ICDesc: Best Bake Cake Flour          
+
+==================================================
+Checking table: InventoryGroups
+==================================================
+Columns:
+  - InvGroup
+  - Description
+  - SalesAcc
+  - PurchAcc
+  - COSAcc
+  - Adjustment
+  - StockCtl
+  - Variance
+  - PurchVariance
+  - SalesTaxType
+  - PurchTaxType
+
+Sample data:
+  InvGroup: 001
+  Description: Wheat Buy as Delivered        
+  SalesAcc: 1000002
+  PurchAcc: 2000002
+  COSAcc: 2000002
+  Adjustment: 2100002
+  StockCtl: 7701000
+  Variance: 2150002
+  PurchVariance: 2200002
+  SalesTaxType: 15
+  PurchTaxType: 16
+
+
+  Checking table: InventoryLink
+==================================================
+Columns:
+  - StoreCode
+  - ItemCode
+
+Sample data:
+  StoreCode: 001
+  ItemCode: 9999999943     
+
+
+
+  Checking table: OpenItem
+==================================================
+Columns:
+  - DC
+  - Original
+  - CSCode
+  - MatchRef
+  - LineFlag
+  - BatchID
+  - PPeriod
+  - dDate
+  - EntryType
+  - Ref
+  - Amount
+  - TaxAmt
+  - CurrAmt
+  - CurrTaxAmt
+  - TaxType
+  - Discount
+  - TaxMethodUsed
+  - Description
+  - UserDef
+  - Spare
+  - Exported
+  - ExportRef
+  - ExportNum
+
+
+Checking table: TaxDescription
+==================================================
+Columns:
+  - TaxBoxDesc01
+  - TaxboxDesc02
+  - TaxBoxDesc03
+  - TaxBoxDesc04
+  - TaxBoxDesc05
+  - TaxBoxDesc06
+  - TaxBoxDesc07
+  - TaxBoxDesc08
+  - TaxBoxDesc09
+  - TaxBoxDesc10
+  - TaxBoxDesc11
+  - TaxBoxdesc12
+  - TaxBoxDesc13
+  - TaxBoxDesc14
+  - TaxBoxDesc15
+  - TaxBoxDesc16
+  - TaxBoxDesc17
+  - TaxBoxDesc18
+  - TaxBoxDesc19
+  - TaxBOxDesc20
+  - TaxBOxDesc21
+  - TaxBOxDesc22
+  - TaxBoxDesc23
+  - TaxBoxDesc24
+  - TaxBoxDesc25
+  - taxBOxDesc26
+  - TaxBoxDesc27
+  - TaxBoxDesc28
+  - TaxBoxDesc29
+  - TaxBoxDesc30
+  - TaxBoxDesc31
+  - TaxBoxDesc32
+  - TaxDesc01
+  - TaxDesc02
+  - TaxDesc03
+  - TaxDesc04
+  - TaxDesc05
+  - TaxDesc06
+  - TaxDesc07
+  - TaxDesc08
+  - TaxDesc09
+  - TaxDesc10
+  - TaxDesc11
+  - TaxDesc12
+  - TaxDesc13
+  - TaxDesc14
+  - TaxDesc15
+  - TaxDesc16
+  - TaxDesc17
+  - TaxDesc18
+  - TaxDesc19
+  - TaxDesc20
+  - TaxDesc21
+  - TaxDesc22
+  - TaxDesc23
+  - TaxDesc24
+  - TaxDesc25
+  - TaxDesc26
+  - TaxDesc27
+  - TaxDesc28
+  - TaxDesc29
+  - TaxDesc30
+  - TaxDesc31
+  - TaxDesc32
+  - TaxDesc33
+  - TaxDesc34
+  - TaxDesc35
+  - TaxDesc36
+  - TaxDesc37
+  - TaxDesc38
+  - TaxDesc39
+  - TaxDesc40
+  - TaxDesc41
+  - TaxDesc42
+  - TaxDesc43
+  - TaxDesc44
+  - TaxDesc45
+  - TaxDesc46
+  - TaxDesc47
+  - TaxDesc48
+  - TaxDesc49
+  - TaxDesc50
+  - TaxDesc51
+  - TaxDesc52
+  - TaxDesc53
+  - TaxDesc54
+  - TaxDesc55
+  - TaxDesc56
+  - TaxDesc57
+  - TaxDesc58
+  - TaxDesc59
+  - TaxDesc60
+  - TaxDesc61
+  - TaxDesc62
+  - TaxDesc63
+  - TaxDesc64
+  - TaxDesc65
+  - TaxDesc66
+  - TaxDesc67
+  - TaxDesc68
+  - TaxDesc69
+  - TaxDesc70
+  - TaxDesc71
+  - TaxDesc72
+  - TaxDesc73
+  - TaxDesc74
+  - TaxDesc75
+  - TaxDesc76
+  - TaxDesc77
+  - TaxDesc78
+  - TaxDesc79
+  - TaxDesc80
+  - TaxDesc81
+  - TaxDesc82
+  - TaxDesc83
+  - TaxDesc84
+  - TaxDesc85
+  - TaxDesc86
+  - TaxDesc87
+  - TaxDesc88
+  - TaxDesc89
+  - TaxDesc90
+  - TaxDesc91
+  - TaxDesc92
+  - TaxDesc93
+  - TaxDesc94
+  - TaxDesc95
+  - TaxDesc96
+  - TaxDesc97
+  - TaxDesc98
+  - TaxDesc99
+
+Sample data:
+  TaxBoxDesc01: Standard rate-output
+  TaxboxDesc02: Output - (Capital)

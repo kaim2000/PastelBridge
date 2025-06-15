@@ -1,0 +1,16 @@
+# Tells cloudflared which tunnel to run by its ID
+tunnel: 4bcab4b5-e5a9-425f-a526-b96505708672
+
+# Correct path to your tunnel's credentials
+credentials-file: C:\Users\User\.cloudflared\4bcab4b5-e5a9-425f-a526-b96505708672.json
+
+# Ingress rules tell the tunnel where to send traffic
+ingress:
+  # Pastel Bridge API endpoint
+  - hostname: pastel-api.cambridge-inv-dev.com  # <-- CHANGE THIS to your real domain
+    service: https://localhost:8000
+    originRequest:
+      noTLSVerify: true
+
+  # Required catch-all rule
+  - service: http_status:404

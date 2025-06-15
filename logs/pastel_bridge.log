@@ -1,0 +1,150 @@
+2025-06-14 15:29:12,753 - database - ERROR - Database error: ('HY000', "[HY000] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Error in expression: @@VERSION  (0) (SQLExecDirectW); [HY000] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Invalid column name:'@@VERSION'. (0)")
+2025-06-14 15:32:36,058 - database - ERROR - Database error: ('HY000', "[HY000] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Error in expression: AccountCode  (0) (SQLPrepare); [HY000] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Invalid column name:'AccountCode'. (0)")
+2025-06-14 15:32:36,061 - routers.invoices - ERROR - Error fetching invoices: ('HY000', "[HY000] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Error in expression: AccountCode  (0) (SQLPrepare); [HY000] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Invalid column name:'AccountCode'. (0)")
+2025-06-14 15:38:01,229 - routers.invoices - ERROR - Error fetching invoices: 'pyodbc.Row' object has no attribute 'AccountCode'
+2025-06-14 15:39:30,135 - routers.invoices - ERROR - Error fetching invoices: 1 validation error for Invoice
+inclusive_value
+  Field required [type=missing, input_value={'document_number': 'PNB1...account_code': 'CAM001'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-06-15 13:38:21,851 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-06-15 15:28:16,271 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 15:28:16,392 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.121s
+2025-06-15 15:28:16,538 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-15 15:28:16,539 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:28:19,067 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:28:19,080 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.542s
+2025-06-15 15:29:06,878 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-15 15:29:06,879 - routers.invoices - INFO - Invoice request: from=2025-06-03, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:29:09,507 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-03 to 2025-06-15
+2025-06-15 15:29:09,521 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.644s
+2025-06-15 15:30:03,300 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 15:30:03,357 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.057s
+2025-06-15 15:35:02,471 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 15:35:02,544 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.074s
+2025-06-15 15:38:49,390 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:38:49,453 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.064s
+2025-06-15 15:38:49,665 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:38:49,666 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:38:51,931 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:38:51,946 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.281s
+2025-06-15 15:39:30,966 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:39:30,967 - routers.invoices - INFO - Invoice request: from=2025-05-16, to=2025-05-29, account_code=None, limit=100
+2025-06-15 15:39:33,141 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-05-16 to 2025-05-29
+2025-06-15 15:39:33,154 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.189s
+2025-06-15 15:40:03,322 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 15:40:03,384 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.062s
+2025-06-15 15:45:03,017 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 15:45:03,091 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.074s
+2025-06-15 15:50:03,334 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 15:50:03,411 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.077s
+2025-06-15 15:52:07,399 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:52:07,473 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.074s
+2025-06-15 15:52:07,676 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:52:07,677 - routers.invoices - INFO - Invoice request: from=2025-06-11, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:52:09,954 - routers.invoices - INFO - Retrieved 71 invoices for date range 2025-06-11 to 2025-06-15
+2025-06-15 15:52:09,968 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.292s
+2025-06-15 15:55:02,797 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 15:55:02,842 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.045s
+2025-06-15 15:57:17,228 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:17,288 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.060s
+2025-06-15 15:57:17,483 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:17,483 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:18,751 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:18,759 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.277s
+2025-06-15 15:57:20,207 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:20,208 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:21,078 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:21,086 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.879s
+2025-06-15 15:57:22,594 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:22,594 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:23,410 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:23,416 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.822s
+2025-06-15 15:57:24,818 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:24,818 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:25,605 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:25,611 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.794s
+2025-06-15 15:57:27,140 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:27,141 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:28,026 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:28,033 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.893s
+2025-06-15 15:57:29,837 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:29,838 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:30,660 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:30,666 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.829s
+2025-06-15 15:57:32,466 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:32,467 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:33,202 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:33,208 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.741s
+2025-06-15 15:57:34,965 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:34,966 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:35,814 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:35,822 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.858s
+2025-06-15 15:57:37,414 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:37,415 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:38,356 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:38,363 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.948s
+2025-06-15 15:57:40,092 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:40,093 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:40,632 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:40,636 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.543s
+2025-06-15 15:57:42,474 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:42,474 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:42,936 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:42,939 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.465s
+2025-06-15 15:57:44,767 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 15:57:44,767 - routers.invoices - INFO - Invoice request: from=2025-06-08, to=2025-06-15, account_code=None, limit=100
+2025-06-15 15:57:45,414 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-08 to 2025-06-15
+2025-06-15 15:57:45,423 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.656s
+2025-06-15 16:00:03,156 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:00:03,193 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.037s
+2025-06-15 16:00:03,607 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-15 16:00:03,607 - routers.invoices - INFO - Invoice request: from=2025-06-09, to=2025-06-15, account_code=None, limit=100
+2025-06-15 16:00:04,467 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-09 to 2025-06-15
+2025-06-15 16:00:04,472 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.865s
+2025-06-15 16:05:03,564 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:05:03,590 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-15 16:10:02,539 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:10:02,583 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.044s
+2025-06-15 16:15:03,254 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:15:03,298 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.044s
+2025-06-15 16:20:03,038 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:20:03,180 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.142s
+2025-06-15 16:25:03,267 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:25:03,302 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.035s
+2025-06-15 16:30:03,053 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:30:03,089 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.035s
+2025-06-15 16:35:02,501 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:35:02,531 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.030s
+2025-06-15 16:40:03,396 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:40:03,441 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.045s
+2025-06-15 16:45:03,185 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:45:03,222 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.037s
+2025-06-15 16:50:02,769 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:50:02,799 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.029s
+2025-06-15 16:55:03,251 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 16:55:03,293 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.042s
+2025-06-15 17:00:03,173 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:00:03,218 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.046s
+2025-06-15 17:00:04,075 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-15 17:00:04,076 - routers.invoices - INFO - Invoice request: from=2025-06-09, to=2025-06-15, account_code=None, limit=100
+2025-06-15 17:00:05,131 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-09 to 2025-06-15
+2025-06-15 17:00:05,139 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.064s
+2025-06-15 17:05:03,085 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:05:03,114 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.029s
+2025-06-15 17:10:03,273 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:10:03,311 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.037s
+2025-06-15 17:15:03,221 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:15:03,265 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.044s
+2025-06-15 17:20:02,760 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:20:02,806 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.046s
+2025-06-15 17:25:03,177 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:25:03,215 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.037s

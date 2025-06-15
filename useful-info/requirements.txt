@@ -1,0 +1,188 @@
+# Pastel Bridge API Requirements
+# ================================
+# This file contains all Python dependencies and setup instructions
+# for the Pastel Bridge API service.
+
+# Python Dependencies
+# -------------------
+fastapi==0.104.1
+uvicorn==0.24.0
+pyodbc==5.0.1
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+pywin32==306
+
+# ============================================
+# INSTALLATION INSTRUCTIONS FOR NEW PC
+# ============================================
+# 
+# Prerequisites:
+# - Windows 10/11 64-bit
+# - Pastel Partner with ODBC DSN configured (GRP25_x64)
+# - Python 3.11+ 64-bit installed
+# - Administrator access on the PC
+#
+# Step-by-Step Setup:
+#
+# 1. PREPARE THE ENVIRONMENT
+#    ------------------------
+#    Open PowerShell as Administrator and run:
+#    
+#    mkdir C:\PastelBridge
+#    cd C:\PastelBridge
+#    python -m venv venv
+#    .\venv\Scripts\activate
+#    pip install -r requirements.txt
+#
+# 2. COPY PROJECT FILES
+#    ------------------
+#    Copy these files to C:\PastelBridge:
+#    - main.py
+#    - config.py
+#    - database.py
+#    - models.py
+#    - requirements.txt
+#    - .env (configure for this specific PC)
+#    - routers/ (entire folder)
+#    
+#    Create logs folder:
+#    mkdir C:\PastelBridge\logs
+#
+# 3. CONFIGURE ENVIRONMENT
+#    ---------------------
+#    Edit .env file with this PC's specific settings:
+#    - DSN_NAME (usually GRP25_x64)
+#    - API_KEY (generate new one: openssl rand -base64 32)
+#    - ALLOWED_IPS (your Laravel Forge server IP)
+#
+# 4. GENERATE SSL CERTIFICATE
+#    ------------------------
+#    mkdir C:\PastelBridge\certs
+#    cd C:\PastelBridge\certs
+#    
+#    # If you have OpenSSL:
+#    openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes -subj "/CN=pastel-bridge"
+#    
+#    # If not, download OpenSSL from: https://slproweb.com/products/Win32OpenSSL.html
+#
+# 5. INSTALL NSSM (SERVICE MANAGER)
+#    ------------------------------
+#    a) Download NSSM from: https://nssm.cc/download
+#    b) Extract and copy nssm.exe (from win64 folder) to C:\Windows\System32\
+#    
+# 6. INSTALL AS WINDOWS SERVICE
+#    --------------------------
+#    In PowerShell (as Administrator):
+#    
+#    # Install service
+#    nssm install PastelBridgeAPI "C:\PastelBridge\venv\Scripts\python.exe" "C:\PastelBridge\main.py"
+#    
+#    # Configure service
+#    nssm set PastelBridgeAPI AppDirectory "C:\PastelBridge"
+#    nssm set PastelBridgeAPI DisplayName "Pastel Bridge API"
+#    nssm set PastelBridgeAPI Description "Bridge API for Pastel Partner integration"
+#    nssm set PastelBridgeAPI Start SERVICE_AUTO_START
+#    
+#    # Set up logging
+#    nssm set PastelBridgeAPI AppStdout "C:\PastelBridge\logs\service.log"
+#    nssm set PastelBridgeAPI AppStderr "C:\PastelBridge\logs\service-error.log"
+#    nssm set PastelBridgeAPI AppRotateFiles 1
+#    nssm set PastelBridgeAPI AppRotateOnline 1
+#    nssm set PastelBridgeAPI AppRotateBytes 10485760
+#    
+#    # Start service
+#    nssm start PastelBridgeAPI
+#
+# 7. CONFIGURE WINDOWS FIREWALL
+#    --------------------------
+#    New-NetFirewallRule -DisplayName "Pastel Bridge API" `
+#        -Direction Inbound -Protocol TCP -LocalPort 8000 `
+#        -Action Allow -RemoteAddress "YOUR.FORGE.SERVER.IP"
+#
+# 8. TEST THE INSTALLATION
+#    ---------------------
+#    # Check service status
+#    nssm status PastelBridgeAPI
+#    
+#    # Test API locally
+#    curl http://localhost:8000/
+#    
+#    # Check logs if issues
+#    Get-Content C:\PastelBridge\logs\service-error.log -Tail 50
+#
+curl http://localhost:8000 `
+     -H "X-API-Key: cc522a73-5a85-40f8-802d-02ba6560caf5"
+# ============================================
+# QUICK DEPLOYMENT CHECKLIST
+# ============================================
+# □ Python 3.11+ 64-bit installed
+# □ ODBC DSN configured and tested
+# □ All files copied to C:\PastelBridge
+# □ .env configured with correct values
+# □ SSL certificates generated
+# □ NSSM service installed and running
+# □ Firewall rule created
+# □ API responding on port 8000
+# □ Laravel can connect from Forge
+#
+# ============================================
+# TROUBLESHOOTING
+# ============================================
+# 
+# Service won't start:
+# - Check logs: Get-Content C:\PastelBridge\logs\service-error.log
+# - Test manually: cd C:\PastelBridge && .\venv\Scripts\activate && python main.py
+# - Verify .env exists and has all required values
+# - Ensure ODBC DSN is 64-bit version
+#
+# Can't connect from Laravel:
+# - Check firewall rule includes Forge server IP
+# - Verify port 8000 is open: netstat -an | findstr :8000
+# - Test certificate: openssl s_client -connect localhost:8000
+# - Check API key matches between .env and Laravel config
+#
+# Database errors:
+# - Test ODBC connection via Control Panel > ODBC Data Sources (64-bit)
+# - Verify Pastel is running and database is accessible
+# - Check PSQL engine is running (green in PSQL Control Center)
+# - Ensure using correct DSN name in .env
+#
+# ============================================
+# MAINTENANCE COMMANDS
+# ============================================
+# 
+# View service configuration:
+#   nssm dump PastelBridgeAPI
+# 
+# Stop/Start/Restart service:
+#   nssm stop PastelBridgeAPI
+#   nssm start PastelBridgeAPI
+#   nssm restart PastelBridgeAPI
+# 
+# Edit service via GUI:
+#   nssm edit PastelBridgeAPI
+# 
+# Remove service completely:
+#   nssm remove PastelBridgeAPI confirm
+# 
+# Update Python packages:
+#   cd C:\PastelBridge
+#   .\venv\Scripts\activate
+#   pip install -r requirements.txt --upgrade
+#
+
+
+
+
+# Test health check endpoint
+$headers = @{
+    "X-API-Key" = "cc522a73-5a85-40f8-802d-02ba6560caf5"
+}
+
+# For HTTPS (ignore cert warning for self-signed)
+[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}
+
+$response = Invoke-RestMethod -Uri "https://localhost:8000/api/ping" -Headers $headers -Method Get
+$response | ConvertTo-Json

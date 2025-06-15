@@ -1,0 +1,17 @@
+CRM Side Changes:
+2. Implement Incremental Sync (CRM portion)
+Track last sync state (last document processed, timestamp)
+Use the incremental sync endpoint instead of full data pulls
+Handle cursor-based pagination properly
+4. Pagination Controls (CRM adaptation)
+Adapt to smaller page sizes (50-100 records instead of 5000)
+Handle cursor-based pagination instead of offset-based
+8. API Response Changes (CRM handling)
+Read and use sync metadata from responses
+Respect warning headers (retry-after, preferred schedule times)
+Handle partial results gracefully
+Both Sides Need Coordination:
+2. Implement Incremental Sync
+API: Provide endpoint for date-based incremental sync with document number cursor
+CRM: Maintain sync state and use the incremental endpoint properly
+The majority of the work is on the API side to protect Pastel from excessive load. The CRM mainly needs to adapt to use the new incremental sync approach and respect the more restrictive limits and pagination.
