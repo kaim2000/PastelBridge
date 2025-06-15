@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 import uvicorn
 from config import settings
-from routers import health, invoices
+from routers import health, invoices, customers
 import time
 import json
 
@@ -114,10 +114,12 @@ async def validate_api_key(request: Request, call_next):
         )
     return await call_next(request)
 
-# Rate limiting middleware (simple implementation)
+# Rate limiting middleware with inter-request delay
 from collections import defaultdict
+import asyncio
 
 request_counts = defaultdict(list)
+last_request_time = defaultdict(float)
 
 @app.middleware("http")
 async def rate_limit(request: Request, call_next):
@@ -130,19 +132,33 @@ async def rate_limit(request: Request, call_next):
         if now - req_time < 60
     ]
     
-    # Check rate limit (60 requests per minute)
-    if len(request_counts[client_ip]) >= 60:
+    # Check rate limit (configurable requests per minute)
+    if len(request_counts[client_ip]) >= settings.rate_limit_per_minute:
+        logger.warning(f"Rate limit exceeded for {client_ip}")
         return JSONResponse(
             status_code=429,
-            content={"detail": "Rate limit exceeded"}
+            content={"detail": "Rate limit exceeded"},
+            headers={"X-Retry-After": "60"}
         )
     
+    # Enforce minimum interval between requests
+    last_request = last_request_time.get(client_ip, 0)
+    time_since_last = (now - last_request) * 1000  # Convert to ms
+    
+    if time_since_last < settings.min_request_interval_ms:
+        delay_ms = settings.min_request_interval_ms - time_since_last
+        logger.debug(f"Delaying request from {client_ip} by {delay_ms:.0f}ms")
+        await asyncio.sleep(delay_ms / 1000)
+    
     request_counts[client_ip].append(now)
+    last_request_time[client_ip] = time.time()
+    
     return await call_next(request)
 
 # Include routers
 app.include_router(health.router, prefix="/api", tags=["health"])
 app.include_router(invoices.router, prefix="/api", tags=["invoices"])
+app.include_router(customers.router, prefix="/api", tags=["customers"])
 
 @app.get("/")
 async def root():

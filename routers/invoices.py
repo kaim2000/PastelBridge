@@ -14,7 +14,7 @@ async def get_invoices(
     from_date: date = Query(..., alias="from"),
     to_date: date = Query(..., alias="to"),
     account_code: Optional[str] = None,
-    limit: int = Query(1000, le=5000)
+    limit: int = Query(settings.default_page_size, ge=1, le=settings.max_page_size)
 ):
     # Log request parameters
     logger.info(f"Invoice request: from={from_date}, to={to_date}, account_code={account_code}, limit={limit}")
@@ -24,20 +24,19 @@ async def get_invoices(
             cursor = conn.cursor()
             
             # PSQL uses TOP instead of LIMIT
-            # Adjust this query based on actual Pastel table structure
+            # Using NOLOCK to reduce lock contention
             query = f"""
                 SELECT TOP {limit}
                     DocumentNumber,
                     DocumentDate,
-                    CustomerCode,
-                    Total
+                    CustomerCode
                 FROM HistoryHeader
                 WHERE DocumentDate >= ? AND DocumentDate <= ?
             """
             params = [from_date, to_date]
             
             if account_code:
-                query += " AND AccountCode = ?"
+                query += " AND CustomerCode = ?"
                 params.append(account_code)
                 
             query += " ORDER BY DocumentDate DESC"

@@ -21,9 +21,24 @@ class Settings(BaseSettings):
     api_key: str
     allowed_ips: str = ""
     
-    # Connection Pool
-    max_connections: int = 3
-    connection_timeout: int = 30
+    # Connection Pool - Following load reduction guidelines
+    max_connections: int = 1  # Reduced from 3 to 1 per guidelines
+    connection_timeout: int = 5  # Reduced from 30 to 5 seconds
+    connection_acquire_timeout: float = 0.1  # 100ms to fail fast
+    
+    # Rate Limiting - Following load reduction guidelines  
+    rate_limit_per_minute: int = 15  # Reduced from 60 to 15 (middle of 10-20 range)
+    min_request_interval_ms: int = 500  # Minimum 500ms between requests
+    
+    # Pagination - Following load reduction guidelines
+    max_page_size: int = 100  # Reduced from 5000 to 100
+    default_page_size: int = 50  # Default page size
+    
+    # Circuit Breaker
+    circuit_breaker_enabled: bool = True
+    circuit_breaker_failure_threshold: int = 5
+    circuit_breaker_recovery_timeout: int = 30
+    query_timeout_seconds: int = 2  # Alert if queries exceed this
     
     # SSL - Optional strings
     ssl_cert_file: Optional[str] = ""

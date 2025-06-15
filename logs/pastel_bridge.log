@@ -148,3 +148,448 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2025-06-15 17:20:02,806 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.046s
 2025-06-15 17:25:03,177 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
 2025-06-15 17:25:03,215 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.037s
+2025-06-15 17:30:03,042 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:30:03,089 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.047s
+2025-06-15 17:35:02,919 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:35:02,959 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.040s
+2025-06-15 17:40:03,260 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:40:03,284 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.025s
+2025-06-15 17:45:03,258 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:45:03,301 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.043s
+2025-06-15 17:50:03,116 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:50:03,149 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.032s
+2025-06-15 17:55:03,056 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 17:55:03,136 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.080s
+2025-06-15 18:00:03,625 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 18:00:03,692 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.066s
+2025-06-15 18:00:04,062 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-15 18:00:04,065 - routers.invoices - INFO - Invoice request: from=2025-06-09, to=2025-06-15, account_code=None, limit=100
+2025-06-15 18:00:11,476 - routers.invoices - INFO - Retrieved 100 invoices for date range 2025-06-09 to 2025-06-15
+2025-06-15 18:00:11,489 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 7.427s
+2025-06-15 18:05:02,798 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 18:05:02,863 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.065s
+2025-06-15 18:42:28,199 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:28,332 - database - ERROR - Database error after 0.13s: ('HYC00', '[HYC00] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Driver not capable. (0) (SQLSetConnectAttr)')
+2025-06-15 18:42:28,338 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.140s
+2025-06-15 18:42:28,339 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:29,580 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:29,618 - database - ERROR - Database error after 0.04s: ('HYC00', '[HYC00] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Driver not capable. (0) (SQLSetConnectAttr)')
+2025-06-15 18:42:29,624 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.044s
+2025-06-15 18:42:29,625 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:30,788 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:30,826 - database - ERROR - Database error after 0.04s: ('HYC00', '[HYC00] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Driver not capable. (0) (SQLSetConnectAttr)')
+2025-06-15 18:42:30,831 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 18:42:30,831 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:31,298 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:31,336 - database - ERROR - Database error after 0.04s: ('HYC00', '[HYC00] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Driver not capable. (0) (SQLSetConnectAttr)')
+2025-06-15 18:42:31,340 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.042s
+2025-06-15 18:42:31,341 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:32,501 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:32,537 - database - ERROR - Database error after 0.04s: ('HYC00', '[HYC00] [PSQL][ODBC Client Interface][LNA][PSQL][SQL Engine]Driver not capable. (0) (SQLSetConnectAttr)')
+2025-06-15 18:42:32,538 - database - ERROR - Opening database circuit breaker due to repeated failures
+2025-06-15 18:42:32,543 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 18:42:32,543 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:33,699 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:33,700 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 18:42:33,700 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:34,205 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:34,205 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 18:42:34,206 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:35,385 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:35,386 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 18:42:35,386 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:36,546 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:36,548 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 18:42:36,548 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:37,055 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:37,057 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:42:37,057 - routers.invoices - ERROR - Error fetching invoices: Database circuit breaker is open - too many failures
+2025-06-15 18:42:37,057 - routers.invoices - ERROR - Query parameters: from=2025-06-14, to=2025-06-15, account_code=None
+2025-06-15 18:42:37,058 - main - INFO - Response: GET /api/invoices - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.003s
+2025-06-15 18:42:37,058 - main - WARNING - Error response 500 for GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:38,284 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:38,285 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:42:38,286 - routers.invoices - ERROR - Error fetching invoices: Database circuit breaker is open - too many failures
+2025-06-15 18:42:38,286 - routers.invoices - ERROR - Query parameters: from=2025-06-14, to=2025-06-15, account_code=None
+2025-06-15 18:42:38,286 - main - INFO - Response: GET /api/invoices - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.002s
+2025-06-15 18:42:38,286 - main - WARNING - Error response 500 for GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:39,505 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:39,506 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:42:39,506 - routers.invoices - ERROR - Error fetching invoices: Database circuit breaker is open - too many failures
+2025-06-15 18:42:39,506 - routers.invoices - ERROR - Query parameters: from=2025-06-14, to=2025-06-15, account_code=None
+2025-06-15 18:42:39,507 - main - INFO - Response: GET /api/invoices - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.002s
+2025-06-15 18:42:39,507 - main - WARNING - Error response 500 for GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:40,013 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:40,014 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 18:42:40,015 - main - WARNING - Error response 503 for GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:40,525 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:42:40,526 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:42:40,526 - routers.invoices - ERROR - Error fetching invoices: Database circuit breaker is open - too many failures
+2025-06-15 18:42:40,527 - routers.invoices - ERROR - Query parameters: from=2025-06-14, to=2025-06-15, account_code=None
+2025-06-15 18:42:40,527 - main - INFO - Response: GET /api/invoices - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.003s
+2025-06-15 18:42:40,527 - main - WARNING - Error response 500 for GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:46,792 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:46,933 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.142s
+2025-06-15 18:44:47,295 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:47,357 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.063s
+2025-06-15 18:44:47,803 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:47,862 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.060s
+2025-06-15 18:44:48,305 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:48,307 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:44:48,366 - database - ERROR - Database error after 0.06s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    DocumentNumber,\n                    DocumentDate,\n                    CustomerCode,\n                    Total\n                FROM HistoryHeader WITH (NOLOCK<< ??? >>)\n      (0) (SQLPrepare)')
+2025-06-15 18:44:48,370 - routers.invoices - ERROR - Error fetching invoices: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    DocumentNumber,\n                    DocumentDate,\n                    CustomerCode,\n                    Total\n                FROM HistoryHeader WITH (NOLOCK<< ??? >>)\n      (0) (SQLPrepare)')
+2025-06-15 18:44:48,371 - routers.invoices - ERROR - Query parameters: from=2025-06-14, to=2025-06-15, account_code=None
+2025-06-15 18:44:48,371 - main - INFO - Response: GET /api/invoices - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.066s
+2025-06-15 18:44:48,372 - main - WARNING - Error response 500 for GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:49,544 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:49,545 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:44:49,581 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    DocumentNumber,\n                    DocumentDate,\n                    CustomerCode,\n                    Total\n                FROM HistoryHeader WITH (NOLOCK<< ??? >>)\n      (0) (SQLPrepare)')
+2025-06-15 18:44:49,585 - routers.invoices - ERROR - Error fetching invoices: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    DocumentNumber,\n                    DocumentDate,\n                    CustomerCode,\n                    Total\n                FROM HistoryHeader WITH (NOLOCK<< ??? >>)\n      (0) (SQLPrepare)')
+2025-06-15 18:44:49,586 - routers.invoices - ERROR - Query parameters: from=2025-06-14, to=2025-06-15, account_code=None
+2025-06-15 18:44:49,587 - main - INFO - Response: GET /api/invoices - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 18:44:49,587 - main - WARNING - Error response 500 for GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:50,763 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:50,765 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:44:50,803 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    DocumentNumber,\n                    DocumentDate,\n                    CustomerCode,\n                    Total\n                FROM HistoryHeader WITH (NOLOCK<< ??? >>)\n      (0) (SQLPrepare)')
+2025-06-15 18:44:50,810 - routers.invoices - ERROR - Error fetching invoices: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    DocumentNumber,\n                    DocumentDate,\n                    CustomerCode,\n                    Total\n                FROM HistoryHeader WITH (NOLOCK<< ??? >>)\n      (0) (SQLPrepare)')
+2025-06-15 18:44:50,810 - routers.invoices - ERROR - Query parameters: from=2025-06-14, to=2025-06-15, account_code=None
+2025-06-15 18:44:50,811 - main - INFO - Response: GET /api/invoices - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.048s
+2025-06-15 18:44:50,812 - main - WARNING - Error response 500 for GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:51,280 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:51,346 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.066s
+2025-06-15 18:44:51,788 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:44:51,789 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:44:51,837 - database - ERROR - Database error after 0.05s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    DocumentNumber,\n                    DocumentDate,\n                    CustomerCode,\n                    Total\n                FROM HistoryHeader WITH (NOLOCK<< ??? >>)\n      (0) (SQLPrepare)')
+2025-06-15 18:44:51,843 - routers.invoices - ERROR - Error fetching invoices: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    DocumentNumber,\n                    DocumentDate,\n                    CustomerCode,\n                    Total\n                FROM HistoryHeader WITH (NOLOCK<< ??? >>)\n      (0) (SQLPrepare)')
+2025-06-15 18:44:51,843 - routers.invoices - ERROR - Query parameters: from=2025-06-14, to=2025-06-15, account_code=None
+2025-06-15 18:44:51,844 - main - INFO - Response: GET /api/invoices - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.057s
+2025-06-15 18:44:51,845 - main - WARNING - Error response 500 for GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:45:03,014 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 18:45:03,077 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.063s
+2025-06-15 18:47:08,893 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:47:09,038 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.145s
+2025-06-15 18:47:09,399 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:47:09,461 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.062s
+2025-06-15 18:47:09,908 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:47:09,968 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.060s
+2025-06-15 18:47:10,412 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:47:10,414 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:47:12,995 - routers.invoices - INFO - Retrieved 1 invoices for date range 2025-06-14 to 2025-06-15
+2025-06-15 18:47:13,009 - database - WARNING - Query exceeded timeout threshold: 2.60s
+2025-06-15 18:47:13,011 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.599s
+2025-06-15 18:47:13,327 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:47:13,388 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.061s
+2025-06-15 18:47:13,842 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:47:13,843 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 18:47:15,998 - routers.invoices - INFO - Retrieved 1 invoices for date range 2025-06-14 to 2025-06-15
+2025-06-15 18:47:16,009 - database - WARNING - Query exceeded timeout threshold: 2.16s
+2025-06-15 18:47:16,010 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.168s
+2025-06-15 18:49:32,162 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:49:32,228 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.066s
+2025-06-15 18:49:32,670 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:49:32,671 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:49:32,715 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:49:32,721 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:49:32,721 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:49:32,722 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.052s
+2025-06-15 18:49:32,723 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:49:33,898 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:49:33,899 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:49:33,940 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:49:33,945 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:49:33,946 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:49:33,947 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.049s
+2025-06-15 18:49:33,947 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:49:35,114 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:49:35,114 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:49:35,142 - database - ERROR - Database error after 0.03s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:49:35,146 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:49:35,146 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:49:35,146 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.033s
+2025-06-15 18:49:35,147 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:50:03,300 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 18:50:03,369 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.069s
+2025-06-15 18:50:15,402 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:50:15,469 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.067s
+2025-06-15 18:50:15,913 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:50:15,914 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:50:15,967 - database - ERROR - Database error after 0.05s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:50:15,972 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:50:15,972 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:50:15,973 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.059s
+2025-06-15 18:50:15,973 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:50:17,179 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:50:17,180 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:50:17,215 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:50:17,222 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:50:17,222 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:50:17,223 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.044s
+2025-06-15 18:50:17,224 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:50:18,399 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:50:18,400 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:50:18,435 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:50:18,440 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:50:18,441 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:50:18,441 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 18:50:18,442 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:51:29,026 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:51:29,027 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:51:29,065 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:51:29,069 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:51:29,070 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:51:29,071 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.045s
+2025-06-15 18:51:29,071 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:51:30,316 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:51:30,317 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:51:30,358 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:51:30,358 - database - ERROR - Opening database circuit breaker due to repeated failures
+2025-06-15 18:51:30,363 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:51:30,364 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:51:30,364 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.049s
+2025-06-15 18:51:30,365 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:48,772 - main - INFO - Incoming request: GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:48,772 - main - INFO - Response: GET /api/health - Status: 404 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 18:52:48,772 - main - WARNING - Error response 404 for GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:49,275 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:49,277 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:52:49,318 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:52:49,322 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:52:49,322 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:52:49,323 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.048s
+2025-06-15 18:52:49,323 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:49,779 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:49,780 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:52:49,819 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:52:49,824 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:52:49,824 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:52:49,825 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.046s
+2025-06-15 18:52:49,825 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:50,975 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:50,976 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:52:51,013 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:52:51,019 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:52:51,019 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:52:51,020 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.045s
+2025-06-15 18:52:51,020 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:52,193 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:52:52,194 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:52:52,231 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:52:52,236 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:52:52,236 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:52:52,237 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.044s
+2025-06-15 18:52:52,237 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:55:03,335 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 18:55:03,396 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.061s
+2025-06-15 18:58:37,353 - main - INFO - Incoming request: GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:58:37,356 - main - INFO - Response: GET /api/health - Status: 404 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.003s
+2025-06-15 18:58:37,356 - main - WARNING - Error response 404 for GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:58:37,855 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:58:37,856 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:58:37,895 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:58:37,900 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:58:37,900 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:58:37,901 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.047s
+2025-06-15 18:58:37,901 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:58:38,364 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:58:38,365 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:58:38,404 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:58:38,408 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:58:38,409 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:58:38,409 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.046s
+2025-06-15 18:58:38,409 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:58:39,573 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:58:39,574 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:58:39,611 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:58:39,615 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:58:39,615 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:58:39,616 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 18:58:39,616 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:58:40,785 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:58:40,786 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:58:40,822 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:58:40,827 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:58:40,827 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:58:40,828 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 18:58:40,828 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:13,658 - main - INFO - Incoming request: GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:13,659 - main - INFO - Response: GET /api/health - Status: 404 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 18:59:13,659 - main - WARNING - Error response 404 for GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:14,168 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:14,170 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:59:14,280 - database - ERROR - Database error after 0.11s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:59:14,285 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:59:14,286 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:59:14,287 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.119s
+2025-06-15 18:59:14,287 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:14,678 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:14,679 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:59:14,720 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:59:14,724 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:59:14,724 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:59:14,726 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.047s
+2025-06-15 18:59:14,726 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:15,904 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:15,905 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:59:15,942 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:59:15,946 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:59:15,946 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:59:15,947 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 18:59:15,947 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:17,098 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 18:59:17,099 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 18:59:17,136 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:59:17,143 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 18:59:17,143 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 18:59:17,144 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.046s
+2025-06-15 18:59:17,145 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:01,146 - main - INFO - Incoming request: GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:01,146 - main - INFO - Response: GET /api/health - Status: 404 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 19:00:01,147 - main - WARNING - Error response 404 for GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:01,661 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:01,662 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 19:00:01,700 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:00:01,700 - database - ERROR - Opening database circuit breaker due to repeated failures
+2025-06-15 19:00:01,705 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:00:01,705 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 19:00:01,706 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.045s
+2025-06-15 19:00:01,706 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:02,170 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:02,171 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 19:00:02,171 - routers.customers - ERROR - Error fetching customers: Database circuit breaker is open - too many failures
+2025-06-15 19:00:02,172 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 19:00:02,172 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.002s
+2025-06-15 19:00:02,172 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:02,977 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:00:02,978 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 13.247.230.43 - Time: 0.001s
+2025-06-15 19:00:02,979 - main - WARNING - Error response 503 for GET /api/ping from 13.247.230.43
+2025-06-15 19:00:03,346 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:03,347 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 19:00:03,348 - routers.customers - ERROR - Error fetching customers: Database circuit breaker is open - too many failures
+2025-06-15 19:00:03,348 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 19:00:03,349 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.003s
+2025-06-15 19:00:03,349 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:03,585 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:00:03,586 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 13.247.230.43 - Time: 0.001s
+2025-06-15 19:00:03,586 - main - WARNING - Error response 503 for GET /api/ping from 13.247.230.43
+2025-06-15 19:00:04,121 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:00:04,122 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 13.247.230.43 - Time: 0.001s
+2025-06-15 19:00:04,122 - main - WARNING - Error response 503 for GET /api/ping from 13.247.230.43
+2025-06-15 19:00:04,610 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:04,611 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 19:00:04,612 - routers.customers - ERROR - Error fetching customers: Database circuit breaker is open - too many failures
+2025-06-15 19:00:04,612 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 19:00:04,613 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.003s
+2025-06-15 19:00:04,613 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:00:04,754 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:00:04,755 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 13.247.230.43 - Time: 0.001s
+2025-06-15 19:00:04,756 - main - WARNING - Error response 503 for GET /api/ping from 13.247.230.43
+2025-06-15 19:00:05,279 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:00:05,280 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 13.247.230.43 - Time: 0.001s
+2025-06-15 19:00:05,280 - main - WARNING - Error response 503 for GET /api/ping from 13.247.230.43
+2025-06-15 19:00:05,935 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:00:05,936 - main - INFO - Response: GET /api/ping - Status: 503 - IP: 13.247.230.43 - Time: 0.001s
+2025-06-15 19:00:05,937 - main - WARNING - Error response 503 for GET /api/ping from 13.247.230.43
+2025-06-15 19:05:03,495 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:05:03,573 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.078s
+2025-06-15 19:10:03,069 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:10:03,130 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.062s
+2025-06-15 19:15:03,457 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:15:03,526 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.069s
+2025-06-15 19:16:46,086 - main - INFO - Incoming request: GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:16:46,087 - main - INFO - Response: GET /api/health - Status: 404 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 19:16:46,087 - main - WARNING - Error response 404 for GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:16:46,588 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:16:46,590 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 19:16:46,700 - database - ERROR - Database error after 0.11s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:16:46,704 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:16:46,704 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 19:16:46,705 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.117s
+2025-06-15 19:16:46,706 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:16:47,091 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:16:47,092 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 19:16:47,130 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:16:47,135 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:16:47,135 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 19:16:47,136 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.045s
+2025-06-15 19:16:47,136 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:16:48,315 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:16:48,316 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 19:16:48,350 - database - ERROR - Database error after 0.03s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:16:48,354 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:16:48,355 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 19:16:48,356 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.041s
+2025-06-15 19:16:48,356 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:16:49,530 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:16:49,531 - routers.customers - INFO - Customer request: search=None, limit=5
+2025-06-15 19:16:49,567 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:16:49,571 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 5\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:16:49,571 - routers.customers - ERROR - Query parameters: search=None, limit=5
+2025-06-15 19:16:49,572 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.042s
+2025-06-15 19:16:49,572 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:20:02,564 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 19:20:02,639 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.075s
+2025-06-15 19:22:29,371 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:29,432 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.062s
+2025-06-15 19:22:29,880 - main - INFO - Incoming request: GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:29,882 - main - INFO - Response: GET /api/health - Status: 404 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.001s
+2025-06-15 19:22:29,882 - main - WARNING - Error response 404 for GET /api/health from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:30,392 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:30,393 - routers.customers - INFO - Customer request: search=None, limit=50
+2025-06-15 19:22:30,431 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 50\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custom (0) (SQLExecDirectW)')
+2025-06-15 19:22:30,435 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 50\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custom (0) (SQLExecDirectW)')
+2025-06-15 19:22:30,436 - routers.customers - ERROR - Query parameters: search=None, limit=50
+2025-06-15 19:22:30,436 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.044s
+2025-06-15 19:22:30,437 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:30,901 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:30,902 - routers.customers - INFO - Customer request: search=None, limit=1
+2025-06-15 19:22:30,939 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:22:30,944 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:22:30,944 - routers.customers - ERROR - Query parameters: search=None, limit=1
+2025-06-15 19:22:30,945 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.044s
+2025-06-15 19:22:30,945 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:31,412 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:31,413 - routers.customers - INFO - Customer request: search=None, limit=10
+2025-06-15 19:22:31,453 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 10\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custom (0) (SQLExecDirectW)')
+2025-06-15 19:22:31,457 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 10\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custom (0) (SQLExecDirectW)')
+2025-06-15 19:22:31,458 - routers.customers - ERROR - Query parameters: search=None, limit=10
+2025-06-15 19:22:31,458 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.046s
+2025-06-15 19:22:31,459 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:31,914 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:31,915 - routers.customers - INFO - Customer request: search=None, limit=50
+2025-06-15 19:22:31,953 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 50\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custom (0) (SQLExecDirectW)')
+2025-06-15 19:22:31,957 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 50\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custom (0) (SQLExecDirectW)')
+2025-06-15 19:22:31,957 - routers.customers - ERROR - Query parameters: search=None, limit=50
+2025-06-15 19:22:31,958 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.044s
+2025-06-15 19:22:31,958 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:32,419 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:32,475 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.057s
+2025-06-15 19:22:32,930 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:32,998 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.068s
+2025-06-15 19:22:33,429 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:33,493 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.064s
+2025-06-15 19:22:33,930 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:33,931 - routers.invoices - INFO - Invoice request: from=2025-06-14, to=2025-06-15, account_code=None, limit=1
+2025-06-15 19:22:36,184 - routers.invoices - INFO - Retrieved 1 invoices for date range 2025-06-14 to 2025-06-15
+2025-06-15 19:22:36,197 - database - WARNING - Query exceeded timeout threshold: 2.27s
+2025-06-15 19:22:36,198 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.269s
+2025-06-15 19:22:36,380 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:36,381 - routers.customers - INFO - Customer request: search=None, limit=1
+2025-06-15 19:22:36,421 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:22:36,425 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:22:36,425 - routers.customers - ERROR - Query parameters: search=None, limit=1
+2025-06-15 19:22:36,426 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.046s
+2025-06-15 19:22:36,426 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:36,890 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:36,892 - routers.customers - INFO - Customer request: search=None, limit=50
+2025-06-15 19:22:36,929 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 50\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custom (0) (SQLExecDirectW)')
+2025-06-15 19:22:36,933 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 50\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custom (0) (SQLExecDirectW)')
+2025-06-15 19:22:36,934 - routers.customers - ERROR - Query parameters: search=None, limit=50
+2025-06-15 19:22:36,935 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.044s
+2025-06-15 19:22:36,935 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:37,407 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 19:22:37,409 - routers.customers - INFO - Customer request: search=None, limit=1
+2025-06-15 19:22:37,451 - database - ERROR - Database error after 0.04s: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:22:37,456 - routers.customers - ERROR - Error fetching customers: ('42000', '[42000] [PSQL][ODBC Client Interface][PSQL][SQL Engine]Syntax Error: \n                SELECT TOP 1\n                    CustomerCode,\n                    CustomerDescription,\n                    ContactName,\n                    Email,\n                    Telephone\n                FROM Custome (0) (SQLExecDirectW)')
+2025-06-15 19:22:37,457 - routers.customers - ERROR - Query parameters: search=None, limit=1
+2025-06-15 19:22:37,458 - main - INFO - Response: GET /api/customers - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.051s
+2025-06-15 19:22:37,458 - main - WARNING - Error response 500 for GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
