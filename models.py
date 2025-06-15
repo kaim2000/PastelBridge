@@ -205,3 +205,35 @@ class CustomerQuery(BaseModel):
     limit: int = 50  # Default to 50, max will be enforced in endpoint
     customer_code: Optional[str] = None
     category: Optional[int] = None
+
+# DeliveryAddress models
+class DeliveryAddress(BaseModel):
+    customer_code: str
+    cust_deliv_code: str
+    salesman_code: Optional[str] = None
+    contact: Optional[str] = None
+    telephone: Optional[str] = None
+    cell: Optional[str] = None
+    fax: Optional[str] = None
+    del_address_01: Optional[str] = None
+    del_address_02: Optional[str] = None
+    del_address_03: Optional[str] = None
+    del_address_04: Optional[str] = None
+    del_address_05: Optional[str] = None
+    email: Optional[str] = None
+    contact_docs: Optional[str] = None
+    email_docs: Optional[str] = None
+    contact_statement: Optional[str] = None
+    email_statement: Optional[str] = None
+    
+    class Config:
+        from_attributes = True
+
+class DeliveryAddressResponse(BaseModel):
+    data: List[DeliveryAddress]
+    metadata: PaginationMetadata
+
+class DeliveryAddressQuery(BaseModel):
+    cursor: Optional[str] = None
+    limit: int = 50  # Default to 50, max will be enforced in endpoint
+    customer_code: Optional[str] = None

@@ -3769,3 +3769,434 @@ third_party_id
 2025-06-15 22:00:07,156 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 3.101s
 2025-06-15 22:05:03,010 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
 2025-06-15 22:05:03,036 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-15 22:06:09,026 - main - INFO - Incoming request: GET /api/customers/AFR002 from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:09,027 - routers.customers - INFO - Customer detail request: customer_code=AFR002
+2025-06-15 22:06:09,091 - routers.customers - INFO - Retrieved customer: AFR002
+2025-06-15 22:06:09,095 - main - INFO - Response: GET /api/customers/AFR002 - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.069s
+2025-06-15 22:06:27,549 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:27,577 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.028s
+2025-06-15 22:06:28,060 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:28,061 - routers.customers - INFO - Customer request: cursor=None, limit=50, customer_code=None, category=None
+2025-06-15 22:06:28,129 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:06:28,133 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.073s
+2025-06-15 22:06:31,692 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:31,693 - routers.customers - INFO - Customer request: cursor=QUZSMDAx, limit=50, customer_code=None, category=None
+2025-06-15 22:06:31,784 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:06:31,792 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.100s
+2025-06-15 22:06:36,421 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:36,422 - routers.customers - INFO - Customer request: cursor=QkFHMDAx, limit=50, customer_code=None, category=None
+2025-06-15 22:06:36,497 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:06:36,501 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.080s
+2025-06-15 22:06:40,059 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:40,060 - routers.customers - INFO - Customer request: cursor=QlJJMDAy, limit=50, customer_code=None, category=None
+2025-06-15 22:06:40,150 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:06:40,155 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.097s
+2025-06-15 22:06:43,727 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:43,728 - routers.customers - INFO - Customer request: cursor=Q0hFMDAy, limit=50, customer_code=None, category=None
+2025-06-15 22:06:43,790 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:06:43,795 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.068s
+2025-06-15 22:06:48,399 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:48,400 - routers.customers - INFO - Customer request: cursor=Q09EMDEx, limit=50, customer_code=None, category=None
+2025-06-15 22:06:48,452 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:06:48,456 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.057s
+2025-06-15 22:06:52,005 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:52,006 - routers.customers - INFO - Customer request: cursor=REVCQUxB, limit=50, customer_code=None, category=None
+2025-06-15 22:06:52,071 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:06:52,077 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.071s
+2025-06-15 22:06:55,655 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:06:55,655 - routers.customers - INFO - Customer request: cursor=RVVSMDAx, limit=50, customer_code=None, category=None
+2025-06-15 22:06:55,734 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:06:55,741 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.087s
+2025-06-15 22:07:00,303 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:00,303 - routers.customers - INFO - Customer request: cursor=RlJZMDAx, limit=50, customer_code=None, category=None
+2025-06-15 22:07:00,375 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:00,386 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.083s
+2025-06-15 22:07:03,970 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:03,971 - routers.customers - INFO - Customer request: cursor=SEFOMDAx, limit=50, customer_code=None, category=None
+2025-06-15 22:07:04,039 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:04,044 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.074s
+2025-06-15 22:07:07,629 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:07,630 - routers.customers - INFO - Customer request: cursor=SlZEQ09N, limit=50, customer_code=None, category=None
+2025-06-15 22:07:07,734 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:07,744 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.115s
+2025-06-15 22:07:12,266 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:12,267 - routers.customers - INFO - Customer request: cursor=S09TS0FT, limit=50, customer_code=None, category=None
+2025-06-15 22:07:12,363 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:12,372 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.106s
+2025-06-15 22:07:15,957 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:15,958 - routers.customers - INFO - Customer request: cursor=TUFMRUtB, limit=50, customer_code=None, category=None
+2025-06-15 22:07:16,048 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:16,058 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.101s
+2025-06-15 22:07:19,593 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:19,594 - routers.customers - INFO - Customer request: cursor=TU9QMDAx, limit=50, customer_code=None, category=None
+2025-06-15 22:07:19,689 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:19,696 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.103s
+2025-06-15 22:07:24,311 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:24,312 - routers.customers - INFO - Customer request: cursor=T0tGMDAy, limit=50, customer_code=None, category=None
+2025-06-15 22:07:24,410 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:24,416 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.105s
+2025-06-15 22:07:28,049 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:28,050 - routers.customers - INFO - Customer request: cursor=UElOMDAy, limit=50, customer_code=None, category=None
+2025-06-15 22:07:28,114 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:28,128 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.079s
+2025-06-15 22:07:31,724 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:31,725 - routers.customers - INFO - Customer request: cursor=UE9SMDA2, limit=50, customer_code=None, category=None
+2025-06-15 22:07:31,825 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:31,834 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.110s
+2025-06-15 22:07:36,356 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:36,357 - routers.customers - INFO - Customer request: cursor=Uk9ZMDAz, limit=50, customer_code=None, category=None
+2025-06-15 22:07:36,418 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:36,422 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.066s
+2025-06-15 22:07:39,995 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:39,996 - routers.customers - INFO - Customer request: cursor=U1BBMDEx, limit=50, customer_code=None, category=None
+2025-06-15 22:07:40,069 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:40,074 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.079s
+2025-06-15 22:07:43,662 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:43,663 - routers.customers - INFO - Customer request: cursor=U1RSMDAx, limit=50, customer_code=None, category=None
+2025-06-15 22:07:43,749 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:43,758 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.095s
+2025-06-15 22:07:48,389 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:48,390 - routers.customers - INFO - Customer request: cursor=VFdPMDAx, limit=50, customer_code=None, category=None
+2025-06-15 22:07:48,468 - routers.customers - INFO - Retrieved 50 customers
+2025-06-15 22:07:48,477 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.088s
+2025-06-15 22:07:52,077 - main - INFO - Incoming request: GET /api/customers from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:07:52,077 - routers.customers - INFO - Customer request: cursor=V0hPMDAx, limit=50, customer_code=None, category=None
+2025-06-15 22:07:52,145 - routers.customers - INFO - Retrieved 35 customers
+2025-06-15 22:07:52,148 - main - INFO - Response: GET /api/customers - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.072s
+2025-06-15 22:10:03,010 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 22:10:03,031 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.021s
+2025-06-15 22:15:02,507 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 22:15:02,542 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.036s
+2025-06-15 22:20:02,524 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 22:20:02,553 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.029s
+2025-06-15 22:25:02,663 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 22:25:02,689 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-15 22:26:49,369 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:26:49,397 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.028s
+2025-06-15 22:26:49,875 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:26:49,876 - main - INFO - Response: GET /api/delivery-addresses - Status: 404 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.000s
+2025-06-15 22:26:49,876 - main - WARNING - Error response 404 for GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:26:51,044 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:26:51,046 - main - INFO - Response: GET /api/delivery-addresses - Status: 404 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.002s
+2025-06-15 22:26:51,046 - main - WARNING - Error response 404 for GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:26:52,212 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:26:52,212 - main - INFO - Response: GET /api/delivery-addresses - Status: 404 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.000s
+2025-06-15 22:26:52,212 - main - WARNING - Error response 404 for GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:27:37,248 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:27:37,300 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.052s
+2025-06-15 22:27:37,750 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:27:37,751 - routers.delivery_addresses - INFO - Delivery address request: cursor=None, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:27:37,819 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:27:37,825 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.075s
+2025-06-15 22:27:41,047 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:27:41,048 - routers.delivery_addresses - INFO - Delivery address request: cursor=MDFDQVBTOk9VRA==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:27:41,102 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:27:41,105 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.059s
+2025-06-15 22:27:45,296 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:27:45,296 - routers.delivery_addresses - INFO - Delivery address request: cursor=MDFEVU5TOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:27:45,348 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:27:45,351 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.056s
+2025-06-15 22:27:49,075 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:27:49,076 - routers.delivery_addresses - INFO - Delivery address request: cursor=MDFXUEtTOk1BTA==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:27:49,107 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:27:49,110 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.035s
+2025-06-15 22:27:53,314 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:27:53,315 - routers.delivery_addresses - INFO - Delivery address request: cursor=QUlUMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:27:53,345 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:27:53,349 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.036s
+2025-06-15 22:27:57,550 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:27:57,552 - routers.delivery_addresses - INFO - Delivery address request: cursor=QkVBTjAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:27:57,607 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:27:57,610 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.060s
+2025-06-15 22:28:00,831 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:00,832 - routers.delivery_addresses - INFO - Delivery address request: cursor=QllFMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:00,888 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:00,892 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.061s
+2025-06-15 22:28:05,145 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:05,146 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0FQMDAxOktSQQ==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:05,199 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:05,203 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.058s
+2025-06-15 22:28:09,390 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:09,391 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0FQMDAyOkJBUg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:09,441 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:09,445 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.055s
+2025-06-15 22:28:12,637 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:12,638 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0FQMDA1Og==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:12,695 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:12,699 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.062s
+2025-06-15 22:28:16,883 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:16,884 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0hFMDAxOlBPUg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:16,919 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:16,923 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.040s
+2025-06-15 22:28:21,117 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:21,118 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0hFMDIzOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:21,165 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:21,169 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.052s
+2025-06-15 22:28:25,351 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:25,352 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q09EMDI4Og==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:25,384 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:25,388 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.037s
+2025-06-15 22:28:29,596 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:29,597 - routers.delivery_addresses - INFO - Delivery address request: cursor=RElTQzAxOkdSRQ==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:29,632 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:29,636 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.040s
+2025-06-15 22:28:32,890 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:32,891 - routers.delivery_addresses - INFO - Delivery address request: cursor=RVhDMDA2Og==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:32,941 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:32,945 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.056s
+2025-06-15 22:28:37,122 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:37,123 - routers.delivery_addresses - INFO - Delivery address request: cursor=RlJZMDAzOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:37,158 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:37,162 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.040s
+2025-06-15 22:28:41,359 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:41,360 - routers.delivery_addresses - INFO - Delivery address request: cursor=R1ZJUzAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:41,400 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:41,403 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.045s
+2025-06-15 22:28:44,600 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:44,601 - routers.delivery_addresses - INFO - Delivery address request: cursor=SktXMDAyOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:44,636 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:44,640 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.040s
+2025-06-15 22:28:48,823 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:48,824 - routers.delivery_addresses - INFO - Delivery address request: cursor=S0VBMDAyOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:48,855 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:48,858 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.035s
+2025-06-15 22:28:53,046 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:53,047 - routers.delivery_addresses - INFO - Delivery address request: cursor=TEFNMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:53,078 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:53,081 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.035s
+2025-06-15 22:28:57,279 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:28:57,280 - routers.delivery_addresses - INFO - Delivery address request: cursor=TUFNUzo=, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:28:57,311 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:28:57,314 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.035s
+2025-06-15 22:29:01,527 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:01,528 - routers.delivery_addresses - INFO - Delivery address request: cursor=TU9WMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:01,565 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:01,568 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.041s
+2025-06-15 22:29:04,794 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:04,794 - routers.delivery_addresses - INFO - Delivery address request: cursor=TlVWRUc6, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:04,828 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:04,832 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.038s
+2025-06-15 22:29:09,020 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:09,021 - routers.delivery_addresses - INFO - Delivery address request: cursor=T0tGRDAxOlJJVg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:09,073 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:09,077 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.057s
+2025-06-15 22:29:13,268 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:13,270 - routers.delivery_addresses - INFO - Delivery address request: cursor=T0tGRDAzOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:13,324 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:13,328 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.060s
+2025-06-15 22:29:17,517 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:17,519 - routers.delivery_addresses - INFO - Delivery address request: cursor=T05FMDAxOlBBUg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:17,572 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:17,576 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.059s
+2025-06-15 22:29:20,774 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:20,775 - routers.delivery_addresses - INFO - Delivery address request: cursor=UEhJMDAzOkJJWg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:20,829 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:20,833 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.059s
+2025-06-15 22:29:25,033 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:25,034 - routers.delivery_addresses - INFO - Delivery address request: cursor=UEhPRTAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:25,067 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:25,070 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.038s
+2025-06-15 22:29:29,266 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:29,267 - routers.delivery_addresses - INFO - Delivery address request: cursor=UE9NMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:29,305 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:29,309 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 22:29:33,501 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:33,501 - routers.delivery_addresses - INFO - Delivery address request: cursor=UkFOMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:33,550 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:33,554 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.053s
+2025-06-15 22:29:36,765 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:36,765 - routers.delivery_addresses - INFO - Delivery address request: cursor=U0VWMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:36,819 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:36,822 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.058s
+2025-06-15 22:29:41,015 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:41,016 - routers.delivery_addresses - INFO - Delivery address request: cursor=U0hPMDAxOkJSTw==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:41,065 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:41,069 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.054s
+2025-06-15 22:29:45,266 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:45,267 - routers.delivery_addresses - INFO - Delivery address request: cursor=U0hPMDAxOlNUUg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:45,299 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:45,301 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.035s
+2025-06-15 22:29:49,498 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:49,499 - routers.delivery_addresses - INFO - Delivery address request: cursor=U1BBMDMyOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:49,539 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:49,543 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.045s
+2025-06-15 22:29:52,755 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:52,756 - routers.delivery_addresses - INFO - Delivery address request: cursor=U1BBV0M6UklW, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:52,792 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:52,795 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.041s
+2025-06-15 22:29:56,981 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:29:56,982 - routers.delivery_addresses - INFO - Delivery address request: cursor=U1VQMDA0Og==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:29:57,014 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:29:57,016 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.035s
+2025-06-15 22:30:01,220 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:30:01,221 - routers.delivery_addresses - INFO - Delivery address request: cursor=VUlUMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:30:01,257 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:30:01,261 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.041s
+2025-06-15 22:30:03,162 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-15 22:30:03,185 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.023s
+2025-06-15 22:30:05,429 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:30:05,430 - routers.delivery_addresses - INFO - Delivery address request: cursor=V0VMMDAyOkFTSA==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:30:05,467 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:30:05,470 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.042s
+2025-06-15 22:30:08,687 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:30:08,689 - routers.delivery_addresses - INFO - Delivery address request: cursor=WkFZVTAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:30:08,717 - routers.delivery_addresses - INFO - Retrieved 13 delivery addresses
+2025-06-15 22:30:08,719 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.032s
+2025-06-15 22:31:10,882 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:10,907 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.025s
+2025-06-15 22:31:11,390 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:11,391 - routers.delivery_addresses - INFO - Delivery address request: cursor=None, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:11,424 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:11,428 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.038s
+2025-06-15 22:31:14,666 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:14,667 - routers.delivery_addresses - INFO - Delivery address request: cursor=MDFDQVBTOk9VRA==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:14,700 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:14,703 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.037s
+2025-06-15 22:31:18,953 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:18,954 - routers.delivery_addresses - INFO - Delivery address request: cursor=MDFEVU5TOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:18,985 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:18,989 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.036s
+2025-06-15 22:31:23,225 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:23,226 - routers.delivery_addresses - INFO - Delivery address request: cursor=MDFXUEtTOk1BTA==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:23,264 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:23,268 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 22:31:27,539 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:27,540 - routers.delivery_addresses - INFO - Delivery address request: cursor=QUlUMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:27,576 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:27,581 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-15 22:31:30,803 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:30,804 - routers.delivery_addresses - INFO - Delivery address request: cursor=QkVBTjAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:30,836 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:30,840 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.037s
+2025-06-15 22:31:35,084 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:35,085 - routers.delivery_addresses - INFO - Delivery address request: cursor=QllFMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:35,113 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:35,118 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.033s
+2025-06-15 22:31:39,329 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:39,330 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0FQMDAxOktSQQ==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:39,364 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:39,367 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.039s
+2025-06-15 22:31:42,576 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:42,577 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0FQMDAyOkJBUg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:42,608 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:42,613 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.037s
+2025-06-15 22:31:46,830 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:46,831 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0FQMDA1Og==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:46,866 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:46,870 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.040s
+2025-06-15 22:31:51,101 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:51,102 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0hFMDAxOlBPUg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:51,135 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:51,139 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.038s
+2025-06-15 22:31:55,371 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:55,372 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q0hFMDIzOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:55,406 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:55,409 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.038s
+2025-06-15 22:31:58,623 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:31:58,624 - routers.delivery_addresses - INFO - Delivery address request: cursor=Q09EMDI4Og==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:31:58,658 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:31:58,662 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.039s
+2025-06-15 22:32:02,906 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:02,907 - routers.delivery_addresses - INFO - Delivery address request: cursor=RElTQzAxOkdSRQ==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:02,935 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:02,937 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.031s
+2025-06-15 22:32:07,254 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:07,255 - routers.delivery_addresses - INFO - Delivery address request: cursor=RVhDMDA2Og==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:07,287 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:07,291 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.037s
+2025-06-15 22:32:11,541 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:11,542 - routers.delivery_addresses - INFO - Delivery address request: cursor=RlJZMDAzOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:11,575 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:11,579 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.039s
+2025-06-15 22:32:14,815 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:14,817 - routers.delivery_addresses - INFO - Delivery address request: cursor=R1ZJUzAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:14,854 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:14,858 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.042s
+2025-06-15 22:32:19,109 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:19,110 - routers.delivery_addresses - INFO - Delivery address request: cursor=SktXMDAyOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:19,142 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:19,146 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.037s
+2025-06-15 22:32:23,385 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:23,386 - routers.delivery_addresses - INFO - Delivery address request: cursor=S0VBMDAyOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:23,420 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:23,424 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.039s
+2025-06-15 22:32:26,640 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:26,641 - routers.delivery_addresses - INFO - Delivery address request: cursor=TEFNMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:26,676 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:26,679 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.039s
+2025-06-15 22:32:30,953 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:30,954 - routers.delivery_addresses - INFO - Delivery address request: cursor=TUFNUzo=, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:30,990 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:30,994 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.041s
+2025-06-15 22:32:35,183 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:35,184 - routers.delivery_addresses - INFO - Delivery address request: cursor=TU9WMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:35,216 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:35,219 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.036s
+2025-06-15 22:32:39,461 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:39,463 - routers.delivery_addresses - INFO - Delivery address request: cursor=TlVWRUc6, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:39,495 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:39,499 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.038s
+2025-06-15 22:32:42,747 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:42,749 - routers.delivery_addresses - INFO - Delivery address request: cursor=T0tGRDAxOlJJVg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:42,785 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:42,788 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.041s
+2025-06-15 22:32:47,029 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:47,030 - routers.delivery_addresses - INFO - Delivery address request: cursor=T0tGRDAzOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:47,061 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:47,065 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.036s
+2025-06-15 22:32:51,315 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:51,316 - routers.delivery_addresses - INFO - Delivery address request: cursor=T05FMDAxOlBBUg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:51,349 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:51,352 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.038s
+2025-06-15 22:32:54,586 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:54,587 - routers.delivery_addresses - INFO - Delivery address request: cursor=UEhJMDAzOkJJWg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:54,614 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:54,618 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.032s
+2025-06-15 22:32:58,857 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:32:58,858 - routers.delivery_addresses - INFO - Delivery address request: cursor=UEhPRTAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:32:58,895 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:32:58,897 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.040s
+2025-06-15 22:33:03,144 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:03,145 - routers.delivery_addresses - INFO - Delivery address request: cursor=UE9NMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:03,178 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:03,182 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.038s
+2025-06-15 22:33:07,409 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:07,409 - routers.delivery_addresses - INFO - Delivery address request: cursor=UkFOMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:07,444 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:07,447 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.039s
+2025-06-15 22:33:10,662 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:10,663 - routers.delivery_addresses - INFO - Delivery address request: cursor=U0VWMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:10,698 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:10,702 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.040s
+2025-06-15 22:33:14,900 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:14,901 - routers.delivery_addresses - INFO - Delivery address request: cursor=U0hPMDAxOkJSTw==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:14,935 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:14,940 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.040s
+2025-06-15 22:33:19,151 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:19,152 - routers.delivery_addresses - INFO - Delivery address request: cursor=U0hPMDAxOlNUUg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:19,183 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:19,185 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.034s
+2025-06-15 22:33:23,441 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:23,441 - routers.delivery_addresses - INFO - Delivery address request: cursor=U1BBMDMyOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:23,459 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:23,462 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.021s
+2025-06-15 22:33:26,689 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:26,690 - routers.delivery_addresses - INFO - Delivery address request: cursor=U1BBV0M6UklW, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:26,721 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:26,725 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.036s
+2025-06-15 22:33:30,987 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:30,988 - routers.delivery_addresses - INFO - Delivery address request: cursor=U1VQMDA0Og==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:31,016 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:31,020 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.033s
+2025-06-15 22:33:35,255 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:35,255 - routers.delivery_addresses - INFO - Delivery address request: cursor=VUlUMDAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:35,288 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:35,292 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.038s
+2025-06-15 22:33:39,513 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:39,514 - routers.delivery_addresses - INFO - Delivery address request: cursor=V0VMMDAyOkFTSA==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:39,543 - routers.delivery_addresses - INFO - Retrieved 50 delivery addresses
+2025-06-15 22:33:39,546 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.033s
+2025-06-15 22:33:42,766 - main - INFO - Incoming request: GET /api/delivery-addresses from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-15 22:33:42,767 - routers.delivery_addresses - INFO - Delivery address request: cursor=WkFZVTAxOg==, limit=50, customer_code=None, cust_deliv_code=None
+2025-06-15 22:33:42,788 - routers.delivery_addresses - INFO - Retrieved 13 delivery addresses
+2025-06-15 22:33:42,791 - main - INFO - Response: GET /api/delivery-addresses - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.025s
