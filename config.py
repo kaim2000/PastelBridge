@@ -31,7 +31,7 @@ class Settings(BaseSettings):
     min_request_interval_ms: int = 500  # Minimum 500ms between requests
     
     # Pagination - Following load reduction guidelines
-    max_page_size: int = 100  # Reduced from 5000 to 100
+    max_page_size: int = 4500  # Temporarily increased for initial data load - reduce to 100-500 after
     default_page_size: int = 50  # Default page size
     
     # Circuit Breaker

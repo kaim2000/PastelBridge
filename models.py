@@ -3,20 +3,177 @@ from datetime import date, datetime
 from typing import Optional, List
 from decimal import Decimal
 
+# Pagination models (moved to top as they're used by other models)
+class PaginationMetadata(BaseModel):
+    page_size: int
+    total_records: Optional[int] = None
+    cursor: Optional[str] = None
+    next_cursor: Optional[str] = None
+    has_more: bool
+    timestamp: datetime
+
+# Invoice (HistoryHeader) models
 class Invoice(BaseModel):
+    # Primary key fields
+    document_type: int
     document_number: str
-    document_date: date
-    account_code: str
     
+    # Core fields
+    customer_code: str
+    document_date: date
+    order_number: Optional[str] = None
+    salesman_code: Optional[str] = None
+    user_id: Optional[int] = None
+    excl_incl: Optional[int] = None
+    
+    # Message fields
+    message_01: Optional[str] = None
+    message_02: Optional[str] = None
+    message_03: Optional[str] = None
+    
+    # Delivery address fields
+    del_address_01: Optional[str] = None
+    del_address_02: Optional[str] = None
+    del_address_03: Optional[str] = None
+    del_address_04: Optional[str] = None
+    del_address_05: Optional[str] = None
+    
+    # Financial fields
+    terms: Optional[int] = None
+    extra_costs: Optional[float] = None
+    cost_code: Optional[str] = None
+    p_period: Optional[int] = None
+    closing_date: Optional[date] = None
+    
+    # Contact fields
+    telephone: Optional[str] = None
+    fax: Optional[str] = None
+    contact: Optional[str] = None
+    
+    # Currency fields
+    currency_code: Optional[int] = None
+    exchange_rate: Optional[float] = None
+    
+    # Totals and tax
+    discount_percent: Optional[float] = None
+    total: Optional[float] = None
+    f_curr_total: Optional[float] = None
+    total_tax: Optional[float] = None
+    f_curr_total_tax: Optional[float] = None
+    total_cost: Optional[float] = None
+    
+    # Status fields
+    inv_deleted: Optional[str] = None
+    inv_print_status: Optional[str] = None
+    onhold: Optional[int] = None
+    grn_misc: Optional[str] = None
+    paid: Optional[int] = None
+    
+    # Shipping fields
+    freight_01: Optional[str] = None
+    ship: Optional[str] = None
+    
+    # TMB and export fields
+    is_tmb_doc: Optional[int] = None
+    spare: Optional[str] = None
+    exported: Optional[int] = None
+    export_ref: Optional[str] = None
+    export_num: Optional[int] = None
+    emailed: Optional[str] = None
     
     class Config:
         from_attributes = True
 
+class InvoiceResponse(BaseModel):
+    data: List[Invoice]
+    metadata: PaginationMetadata
+
 class InvoiceQuery(BaseModel):
-    from_date: date
-    to_date: date
-    account_code: Optional[str] = None
-    limit: int = 1000
+    cursor: Optional[str] = None
+    limit: int = 50
+    from_date: Optional[date] = None
+    to_date: Optional[date] = None
+    customer_code: Optional[str] = None
+    document_type: Optional[int] = None
+    document_number: Optional[str] = None
+
+# HistoryLines models
+class HistoryLine(BaseModel):
+    # Primary keys
+    document_type: int
+    document_number: str
+    link_num: int
+    
+    # Core fields
+    user_id: Optional[int] = None
+    item_code: Optional[str] = None
+    customer_code: Optional[str] = None
+    salesman_code: Optional[str] = None
+    search_type: Optional[int] = None
+    p_period: Optional[int] = None
+    d_date: Optional[date] = None
+    unit_used: Optional[str] = None
+    
+    # Tax and discount
+    tax_type: Optional[int] = None
+    discount_type: Optional[int] = None
+    discount_percentage: Optional[float] = None
+    description: Optional[str] = None
+    
+    # Pricing fields
+    cost_price: Optional[float] = None
+    qty: Optional[float] = None
+    unit_price: Optional[float] = None
+    inclusive_price: Optional[float] = None
+    f_curr_unit_price: Optional[float] = None
+    f_curr_incl_price: Optional[float] = None
+    tax_amt: Optional[float] = None
+    f_curr_tax_amount: Optional[float] = None
+    discount_amount: Optional[float] = None
+    f_c_discount_amount: Optional[float] = None
+    
+    # Additional fields
+    cost_code: Optional[str] = None
+    date_time: Optional[datetime] = None
+    physical: Optional[int] = None
+    fixed: Optional[int] = None
+    show_qty: Optional[int] = None
+    linked_num: Optional[int] = None
+    grn_qty: Optional[float] = None
+    link_id: Optional[int] = None
+    multi_store: Optional[str] = None
+    is_tmb_line: Optional[int] = None
+    
+    # Link document fields
+    link_document_type: Optional[int] = None
+    link_document_number: Optional[str] = None
+    
+    # Export fields
+    exported: Optional[int] = None
+    export_ref: Optional[str] = None
+    export_num: Optional[int] = None
+    qty_left: Optional[float] = None
+    
+    # Case lot fields
+    case_lot_code: Optional[str] = None
+    case_lot_qty: Optional[float] = None
+    case_lot_ratio: Optional[float] = None
+    cost_sync_done: Optional[str] = None
+    
+    class Config:
+        from_attributes = True
+
+class HistoryLineResponse(BaseModel):
+    data: List[HistoryLine]
+    metadata: PaginationMetadata
+
+class HistoryLineQuery(BaseModel):
+    cursor: Optional[str] = None
+    limit: int = 50
+    document_type: Optional[int] = None
+    document_number: Optional[str] = None
+    customer_code: Optional[str] = None
+    item_code: Optional[str] = None
 
 # CustomerMaster models
 class CustomerMaster(BaseModel):
@@ -186,15 +343,6 @@ class CustomerMaster(BaseModel):
     
     class Config:
         from_attributes = True
-
-# Pagination models
-class PaginationMetadata(BaseModel):
-    page_size: int
-    total_records: Optional[int] = None
-    cursor: Optional[str] = None
-    next_cursor: Optional[str] = None
-    has_more: bool
-    timestamp: datetime
 
 class CustomerMasterResponse(BaseModel):
     data: List[CustomerMaster]

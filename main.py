@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 import uvicorn
 from config import settings
-from routers import health, invoices, customers, delivery_addresses
+from routers import health, invoices, customers, delivery_addresses, history_lines
 import time
 import json
 
@@ -160,6 +160,7 @@ app.include_router(health.router, prefix="/api", tags=["health"])
 app.include_router(invoices.router, prefix="/api", tags=["invoices"])
 app.include_router(customers.router, prefix="/api", tags=["customers"])
 app.include_router(delivery_addresses.router, prefix="/api", tags=["delivery-addresses"])
+app.include_router(history_lines.router, prefix="/api", tags=["history-lines"])
 
 @app.get("/")
 async def root():
