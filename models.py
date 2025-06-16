@@ -385,3 +385,101 @@ class DeliveryAddressQuery(BaseModel):
     cursor: Optional[str] = None
     limit: int = 50  # Default to 50, max will be enforced in endpoint
     customer_code: Optional[str] = None
+
+# Inventory models
+class Inventory(BaseModel):
+    # Primary key field (required)
+    item_code: str
+    
+    # Other fields (all optional)
+    category: Optional[str] = None
+    description: Optional[str] = None
+    barcode: Optional[str] = None
+    discount_type: Optional[int] = None
+    blocked: Optional[int] = None
+    fixed: Optional[int] = None
+    show_qty: Optional[int] = None
+    physical: Optional[int] = None
+    unit_size: Optional[str] = None
+    sales_tax_type: Optional[int] = None
+    purch_tax_type: Optional[int] = None
+    gl_code: Optional[str] = None
+    allow_tax: Optional[int] = None
+    link_web: Optional[str] = None
+    sales_commision: Optional[int] = None  # Note: keeping database spelling
+    serial_item: Optional[int] = None
+    picture: Optional[str] = None
+    user_def_text_01: Optional[str] = None
+    user_def_text_02: Optional[str] = None
+    user_def_text_03: Optional[str] = None
+    user_def_num_01: Optional[float] = None
+    user_def_num_02: Optional[float] = None
+    user_def_num_03: Optional[float] = None
+    commodity_code: Optional[str] = None
+    nett_mass: Optional[float] = None
+    updated_on: Optional[datetime] = None
+    guid: Optional[str] = None
+    
+    class Config:
+        from_attributes = True
+
+class InventoryResponse(BaseModel):
+    data: List[Inventory]
+    metadata: PaginationMetadata
+
+class InventoryQuery(BaseModel):
+    cursor: Optional[str] = None
+    limit: int = 50
+    item_code: Optional[str] = None
+    category: Optional[str] = None
+    blocked: Optional[int] = None
+    physical: Optional[int] = None
+
+# InventoryCategory models
+class InventoryCategory(BaseModel):
+    # Primary key field (required)
+    ic_code: str
+    
+    # Other fields
+    ic_desc: Optional[str] = None
+    
+    class Config:
+        from_attributes = True
+
+class InventoryCategoryResponse(BaseModel):
+    data: List[InventoryCategory]
+    metadata: PaginationMetadata
+
+class InventoryCategoryQuery(BaseModel):
+    cursor: Optional[str] = None
+    limit: int = 50
+    ic_code: Optional[str] = None
+
+# InventoryGroups models
+class InventoryGroup(BaseModel):
+    # Primary key field (required)
+    inv_group: str
+    
+    # Other fields
+    description: Optional[str] = None
+    sales_acc: Optional[str] = None
+    purch_acc: Optional[str] = None
+    cos_acc: Optional[str] = None
+    adjustment: Optional[str] = None
+    stock_ctl: Optional[str] = None
+    variance: Optional[str] = None
+    purch_variance: Optional[str] = None
+    sales_tax_type: Optional[int] = None
+    purch_tax_type: Optional[int] = None
+    
+    class Config:
+        from_attributes = True
+
+class InventoryGroupResponse(BaseModel):
+    data: List[InventoryGroup]
+    metadata: PaginationMetadata
+
+class InventoryGroupQuery(BaseModel):
+    cursor: Optional[str] = None
+    limit: int = 50
+    inv_group: Optional[str] = None

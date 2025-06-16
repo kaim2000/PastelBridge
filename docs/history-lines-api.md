@@ -32,6 +32,8 @@ Get a paginated list of history lines with optional filters.
 |-----------|------|----------|-------------|
 | cursor | string | No | Cursor for pagination |
 | limit | integer | No | Number of records to return (default: 50, max: 100) |
+| from_date | date | No | Filter by start date (YYYY-MM-DD) |
+| to_date | date | No | Filter by end date (YYYY-MM-DD) |
 | document_type | integer | No | Filter by document type |
 | document_number | string | No | Filter by document number |
 | customer_code | string | No | Filter by customer code |
@@ -103,7 +105,12 @@ Get a paginated list of history lines with optional filters.
 **Example Request:**
 
 ```bash
+# Basic request with customer filter
 curl -X GET "https://your-server/api/history-lines?document_type=3&customer_code=CUST001" \
+  -H "X-API-Key: your-api-key"
+
+# Request with date range filter
+curl -X GET "https://your-server/api/history-lines?from_date=2024-01-01&to_date=2024-01-31" \
   -H "X-API-Key: your-api-key"
 ```
 
@@ -199,6 +206,8 @@ Get all line items for a specific invoice.
 |-----------|------|----------|-------------|
 | cursor | string | No | Cursor for pagination |
 | limit | integer | No | Number of records to return (default: 50, max: 100) |
+| from_date | date | No | Filter by start date (YYYY-MM-DD) |
+| to_date | date | No | Filter by end date (YYYY-MM-DD) |
 
 **Response:** Same structure as List History Lines endpoint
 
@@ -414,6 +423,18 @@ curl -X GET "https://your-server/api/history-lines?item_code=PROD001&limit=100" 
   -H "X-API-Key: your-api-key"
 ```
 
+### Filter Lines by Date Range
+
+```bash
+# Get all lines for the last 7 days
+curl -X GET "https://your-server/api/history-lines?from_date=2024-01-08&to_date=2024-01-15" \
+  -H "X-API-Key: your-api-key"
+
+# Get specific customer's lines within date range
+curl -X GET "https://your-server/api/history-lines?customer_code=CUST001&from_date=2024-01-01&to_date=2024-01-31" \
+  -H "X-API-Key: your-api-key"
+```
+
 ## Notes
 
 1. All string fields are automatically trimmed of whitespace
@@ -422,4 +443,4 @@ curl -X GET "https://your-server/api/history-lines?item_code=PROD001&limit=100" 
 4. The `physical` flag indicates if the item affects inventory
 5. Tax calculations depend on the `tax_type` and system configuration
 6. The `multi_store` field indicates which store location the line relates to
-7. Date fields accept both ISO format (YYYY-MM-DD) and DD/MM/YYYY format 
+7. Date fields accept both ISO format (YYYY-MM-DD) and DD/MM/YYYY format

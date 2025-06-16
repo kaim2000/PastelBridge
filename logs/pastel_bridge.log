@@ -5251,3 +5251,1447 @@ third_party_id
 2025-06-16 00:38:03,036 - routers.history_lines - INFO - Retrieved 4500 history lines
 2025-06-16 00:38:03,124 - database - WARNING - Query exceeded timeout threshold: 18.01s
 2025-06-16 00:38:03,250 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.134s
+2025-06-16 00:40:01,895 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 00:40:01,918 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.022s
+2025-06-16 00:41:34,567 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:41:34,589 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.022s
+2025-06-16 00:41:35,784 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:41:35,785 - routers.history_lines - INFO - History lines request: cursor=None, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:41:54,616 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:41:54,665 - database - WARNING - Query exceeded timeout threshold: 18.88s
+2025-06-16 00:41:54,772 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.989s
+2025-06-16 00:41:59,648 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:41:59,648 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1NDgzMDo0, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:42:19,030 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:42:19,136 - database - WARNING - Query exceeded timeout threshold: 19.49s
+2025-06-16 00:42:19,244 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 19.597s
+2025-06-16 00:42:19,782 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:42:19,783 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1NTkzMzo0, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:42:39,174 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:42:39,254 - database - WARNING - Query exceeded timeout threshold: 19.47s
+2025-06-16 00:42:39,385 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 19.602s
+2025-06-16 00:42:39,983 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:42:39,984 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1NzA3Njox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:42:58,545 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:42:58,643 - database - WARNING - Query exceeded timeout threshold: 18.66s
+2025-06-16 00:42:58,726 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.743s
+2025-06-16 00:42:59,206 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:42:59,207 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1ODIxMzox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:43:18,424 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:43:18,512 - database - WARNING - Query exceeded timeout threshold: 19.30s
+2025-06-16 00:43:18,686 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 19.479s
+2025-06-16 00:45:02,600 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 00:45:02,626 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-16 00:47:37,436 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:47:37,465 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.029s
+2025-06-16 00:47:38,647 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:47:38,648 - routers.history_lines - INFO - History lines request: cursor=None, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:47:56,615 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:47:56,683 - database - WARNING - Query exceeded timeout threshold: 18.04s
+2025-06-16 00:47:56,770 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.123s
+2025-06-16 00:48:01,422 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:48:01,423 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1NDgzMDo0, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:48:21,157 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:48:21,204 - database - WARNING - Query exceeded timeout threshold: 19.78s
+2025-06-16 00:48:21,293 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 19.871s
+2025-06-16 00:48:21,872 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:48:21,873 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1NTkzMzo0, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:48:41,432 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:48:41,545 - database - WARNING - Query exceeded timeout threshold: 19.67s
+2025-06-16 00:48:41,703 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 19.832s
+2025-06-16 00:48:42,140 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:48:42,140 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1NzA3Njox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:49:00,546 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:49:00,635 - database - WARNING - Query exceeded timeout threshold: 18.49s
+2025-06-16 00:49:00,740 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.600s
+2025-06-16 00:49:01,275 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:49:01,288 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1ODIxMzox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:49:20,423 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:49:20,520 - database - WARNING - Query exceeded timeout threshold: 19.23s
+2025-06-16 00:49:20,648 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 19.373s
+2025-06-16 00:49:21,183 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:49:21,184 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1OTM0NToxNA==, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:49:40,062 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:49:40,139 - database - WARNING - Query exceeded timeout threshold: 18.95s
+2025-06-16 00:49:40,262 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 19.079s
+2025-06-16 00:49:40,782 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:49:40,783 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2MDUxMzoz, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:49:59,098 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:49:59,202 - database - WARNING - Query exceeded timeout threshold: 18.42s
+2025-06-16 00:49:59,361 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.579s
+2025-06-16 00:49:59,912 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:49:59,912 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2MTYzOTo1, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:50:17,913 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:50:18,018 - database - WARNING - Query exceeded timeout threshold: 18.11s
+2025-06-16 00:50:18,196 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.285s
+2025-06-16 00:50:18,251 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 00:50:18,283 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.032s
+2025-06-16 00:50:18,786 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:50:18,787 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2Mjc3MToy, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:50:36,820 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:50:36,898 - database - WARNING - Query exceeded timeout threshold: 18.11s
+2025-06-16 00:50:37,023 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.237s
+2025-06-16 00:50:37,540 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:50:37,541 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2Mzg5MDox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:50:55,329 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:50:55,416 - database - WARNING - Query exceeded timeout threshold: 17.87s
+2025-06-16 00:50:55,582 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.042s
+2025-06-16 00:50:56,098 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:50:56,098 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2NTA0OTo0, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:51:13,261 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:51:13,354 - database - WARNING - Query exceeded timeout threshold: 17.26s
+2025-06-16 00:51:13,496 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 17.399s
+2025-06-16 00:51:14,007 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:51:14,007 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2NjE0Mjox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:51:30,829 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:51:30,931 - database - WARNING - Query exceeded timeout threshold: 16.92s
+2025-06-16 00:51:31,078 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 17.071s
+2025-06-16 00:53:36,853 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:53:36,878 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.025s
+2025-06-16 00:53:38,054 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:53:38,055 - routers.history_lines - INFO - History lines request: cursor=None, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:53:54,877 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:53:54,970 - database - WARNING - Query exceeded timeout threshold: 16.92s
+2025-06-16 00:53:55,075 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 17.021s
+2025-06-16 00:53:59,624 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:53:59,625 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1NDgzMDo0, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:54:17,943 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:54:18,053 - database - WARNING - Query exceeded timeout threshold: 18.43s
+2025-06-16 00:54:18,157 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.533s
+2025-06-16 00:54:18,689 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:54:18,690 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1NTkzMzo0, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:54:37,481 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:54:37,579 - database - WARNING - Query exceeded timeout threshold: 18.89s
+2025-06-16 00:54:37,713 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 19.024s
+2025-06-16 00:54:38,232 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:54:38,233 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1NzA3Njox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:54:56,973 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:54:57,055 - database - WARNING - Query exceeded timeout threshold: 18.82s
+2025-06-16 00:54:57,197 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.965s
+2025-06-16 00:54:57,715 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:54:57,716 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1ODIxMzox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:55:15,747 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:55:15,835 - database - WARNING - Query exceeded timeout threshold: 18.12s
+2025-06-16 00:55:16,003 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.288s
+2025-06-16 00:55:16,025 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 00:55:16,056 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.031s
+2025-06-16 00:55:16,589 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:55:16,590 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE1OTM0NToxNA==, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:55:34,419 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:55:34,511 - database - WARNING - Query exceeded timeout threshold: 17.92s
+2025-06-16 00:55:34,650 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 18.062s
+2025-06-16 00:55:35,201 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:55:35,202 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2MDUxMzoz, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:56:10,671 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:56:10,760 - database - WARNING - Query exceeded timeout threshold: 35.56s
+2025-06-16 00:56:11,053 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 35.852s
+2025-06-16 00:56:11,637 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:56:11,638 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2MTYzOTo1, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:56:53,599 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:56:53,692 - database - WARNING - Query exceeded timeout threshold: 42.05s
+2025-06-16 00:56:53,967 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 42.330s
+2025-06-16 00:56:54,537 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:56:54,539 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2Mjc3MToy, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:57:35,350 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:57:35,500 - database - WARNING - Query exceeded timeout threshold: 40.96s
+2025-06-16 00:57:35,801 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 41.264s
+2025-06-16 00:57:36,388 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:57:36,390 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2Mzg5MDox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:58:16,799 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:58:16,944 - database - WARNING - Query exceeded timeout threshold: 40.55s
+2025-06-16 00:58:17,231 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 40.842s
+2025-06-16 00:58:17,967 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:58:17,968 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2NTA0OTo0, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:58:58,454 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:58:58,611 - database - WARNING - Query exceeded timeout threshold: 40.64s
+2025-06-16 00:58:58,905 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 40.938s
+2025-06-16 00:58:59,536 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:58:59,537 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2NjE0Mjox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 00:59:39,187 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 00:59:39,319 - database - WARNING - Query exceeded timeout threshold: 39.78s
+2025-06-16 00:59:39,603 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 40.067s
+2025-06-16 00:59:40,251 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 00:59:40,252 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2NzM1MDox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:00:19,146 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:00:19,292 - database - WARNING - Query exceeded timeout threshold: 39.04s
+2025-06-16 01:00:19,582 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 39.332s
+2025-06-16 01:00:19,730 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 01:00:19,778 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.048s
+2025-06-16 01:00:20,227 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 01:00:20,264 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.038s
+2025-06-16 01:00:20,348 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:00:20,350 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2ODU3NToz, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:01:00,085 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:01:00,253 - database - WARNING - Query exceeded timeout threshold: 39.90s
+2025-06-16 01:01:00,544 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 40.195s
+2025-06-16 01:01:00,546 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:01:00,550 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:01:00,689 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:01:00,703 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.156s
+2025-06-16 01:01:01,059 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:01:01,061 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:01:01,180 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:01:01,190 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.131s
+2025-06-16 01:01:01,200 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:01:01,202 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE2OTkxNjo3, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:01:39,535 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:01:39,704 - database - WARNING - Query exceeded timeout threshold: 38.50s
+2025-06-16 01:01:39,995 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 38.796s
+2025-06-16 01:01:40,015 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:01:40,017 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:01:40,153 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:01:40,165 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.150s
+2025-06-16 01:01:40,509 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:01:40,511 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:01:40,608 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:01:40,618 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.109s
+2025-06-16 01:01:40,672 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:01:40,672 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE3MTMyOTox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:02:18,191 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:02:18,338 - database - WARNING - Query exceeded timeout threshold: 37.67s
+2025-06-16 01:02:18,627 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 37.955s
+2025-06-16 01:02:18,648 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:02:18,652 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:02:18,786 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:02:18,800 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.152s
+2025-06-16 01:02:19,141 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:02:19,142 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:02:19,287 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:02:19,296 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.156s
+2025-06-16 01:02:19,370 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:02:19,372 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE3MjY5Nzo4, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:02:57,579 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:02:57,723 - database - WARNING - Query exceeded timeout threshold: 38.35s
+2025-06-16 01:02:58,015 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 38.644s
+2025-06-16 01:02:58,035 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:02:58,040 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:02:58,175 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:02:58,192 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.158s
+2025-06-16 01:02:58,519 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:02:58,520 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:02:58,662 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:02:58,675 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.156s
+2025-06-16 01:02:58,850 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:02:58,851 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE3NDA1Nzox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:03:36,012 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:03:36,155 - database - WARNING - Query exceeded timeout threshold: 37.30s
+2025-06-16 01:03:36,453 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 37.603s
+2025-06-16 01:03:36,473 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:03:36,476 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:03:36,610 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:03:36,624 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.151s
+2025-06-16 01:03:36,957 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:03:36,960 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:03:37,099 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:03:37,110 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.153s
+2025-06-16 01:03:37,273 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:03:37,274 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE3NTM4MDox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:04:13,801 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:04:13,944 - database - WARNING - Query exceeded timeout threshold: 36.67s
+2025-06-16 01:04:14,230 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 36.958s
+2025-06-16 01:04:14,251 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:04:14,255 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:04:14,391 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:04:14,404 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.153s
+2025-06-16 01:04:14,741 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:04:14,743 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:04:14,870 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:04:14,879 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.138s
+2025-06-16 01:04:14,951 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:04:14,952 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE3NjY3ODoz, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:04:50,311 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:04:50,479 - database - WARNING - Query exceeded timeout threshold: 35.53s
+2025-06-16 01:04:50,764 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 35.813s
+2025-06-16 01:04:50,784 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:04:50,788 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:04:50,918 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:04:50,932 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.148s
+2025-06-16 01:04:51,281 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:04:51,282 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:04:51,409 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:04:51,422 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.142s
+2025-06-16 01:04:51,474 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:04:51,475 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE3NzkzODox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:05:26,623 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:05:26,810 - database - WARNING - Query exceeded timeout threshold: 35.33s
+2025-06-16 01:05:27,121 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 35.647s
+2025-06-16 01:05:27,166 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:05:27,186 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:05:27,323 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:05:27,363 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.197s
+2025-06-16 01:05:27,631 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:05:27,633 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:05:27,782 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:05:27,794 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.162s
+2025-06-16 01:05:27,933 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:05:27,934 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE3OTI1Nzo5, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:06:03,062 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:06:03,205 - database - WARNING - Query exceeded timeout threshold: 35.27s
+2025-06-16 01:06:03,522 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 35.589s
+2025-06-16 01:06:03,544 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:06:03,550 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:06:03,717 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:06:03,732 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.189s
+2025-06-16 01:06:04,036 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:06:04,037 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:06:04,174 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:06:04,186 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.151s
+2025-06-16 01:06:04,464 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:06:04,465 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE4MDUwMTox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:06:39,206 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:06:39,342 - database - WARNING - Query exceeded timeout threshold: 34.88s
+2025-06-16 01:06:39,646 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 35.182s
+2025-06-16 01:06:39,674 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:06:39,676 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:06:39,832 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:06:39,851 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.177s
+2025-06-16 01:06:40,159 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:06:40,161 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:06:40,297 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:06:40,309 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.150s
+2025-06-16 01:06:40,362 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:06:40,363 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE4MTc3Njoy, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:07:14,097 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:07:14,163 - database - WARNING - Query exceeded timeout threshold: 33.80s
+2025-06-16 01:07:14,448 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 34.086s
+2025-06-16 01:07:14,468 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:07:14,472 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:07:14,605 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:07:14,619 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.151s
+2025-06-16 01:07:14,966 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:07:14,967 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:07:15,104 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:07:15,114 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.149s
+2025-06-16 01:07:15,326 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:07:15,327 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE4MzAyOTox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:07:47,561 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:07:47,626 - database - WARNING - Query exceeded timeout threshold: 32.30s
+2025-06-16 01:07:47,920 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 32.594s
+2025-06-16 01:07:47,942 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:07:47,944 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:07:48,068 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:07:48,080 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.139s
+2025-06-16 01:07:48,427 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:07:48,429 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:07:48,586 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:07:48,595 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.169s
+2025-06-16 01:07:48,758 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:07:48,759 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE4NDMzODox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:08:21,217 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:08:21,283 - database - WARNING - Query exceeded timeout threshold: 32.52s
+2025-06-16 01:08:21,571 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 32.813s
+2025-06-16 01:08:21,590 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:08:21,594 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:08:21,723 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:08:21,738 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.148s
+2025-06-16 01:08:22,077 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:08:22,079 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:08:22,213 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:08:22,223 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.146s
+2025-06-16 01:08:22,347 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:08:22,348 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE4NTY5NTox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:08:54,189 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:08:54,254 - database - WARNING - Query exceeded timeout threshold: 31.91s
+2025-06-16 01:08:54,534 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 32.187s
+2025-06-16 01:08:54,555 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:08:54,559 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:08:54,684 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:08:54,698 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.143s
+2025-06-16 01:08:55,038 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:08:55,040 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:08:55,174 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:08:55,185 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.147s
+2025-06-16 01:08:55,541 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:08:55,542 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:08:55,663 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:08:55,674 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.133s
+2025-06-16 01:08:55,677 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:08:55,678 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE4NzAwMTox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:09:26,665 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:09:26,724 - database - WARNING - Query exceeded timeout threshold: 31.04s
+2025-06-16 01:09:27,024 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 31.347s
+2025-06-16 01:09:27,073 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:09:27,076 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:09:27,245 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:09:27,256 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.183s
+2025-06-16 01:09:27,566 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:09:27,567 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:09:27,703 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:09:27,714 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.149s
+2025-06-16 01:09:28,066 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:09:28,068 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:09:28,190 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:09:28,200 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.133s
+2025-06-16 01:09:28,337 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:09:28,338 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE4ODM3NTox, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:09:59,148 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:09:59,209 - database - WARNING - Query exceeded timeout threshold: 30.87s
+2025-06-16 01:09:59,553 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 31.216s
+2025-06-16 01:09:59,578 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:09:59,584 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:09:59,728 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:09:59,741 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.163s
+2025-06-16 01:10:00,057 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:10:00,060 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:10:00,230 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:10:00,242 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.185s
+2025-06-16 01:10:00,482 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:10:00,484 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE4OTc2Njoz, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 01:10:30,953 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 01:10:31,024 - database - WARNING - Query exceeded timeout threshold: 30.54s
+2025-06-16 01:10:31,293 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 30.811s
+2025-06-16 01:10:31,339 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:10:31,358 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:10:31,489 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:10:31,501 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.162s
+2025-06-16 01:10:31,802 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 01:10:31,804 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 01:10:31,950 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 01:10:31,962 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.160s
+2025-06-16 01:10:32,212 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 01:10:32,213 - routers.history_lines - INFO - History lines request: cursor=MzpJTjE5MTIzMTo0, limit=4500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 11:23:51,330 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 11:23:51,344 - database - WARNING - Query exceeded timeout threshold: 36799.13s
+2025-06-16 11:23:51,605 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 36799.393s
+2025-06-16 11:23:51,607 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:23:51,608 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:23:51,846 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:23:51,877 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.271s
+2025-06-16 11:25:02,711 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 11:25:02,730 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.018s
+2025-06-16 11:30:03,077 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 11:30:03,101 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.025s
+2025-06-16 11:30:03,590 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:03,592 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:03,653 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:03,657 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.068s
+2025-06-16 11:30:04,103 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:04,104 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:04,185 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:04,192 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.089s
+2025-06-16 11:30:04,620 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:04,621 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:04,700 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:04,703 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.084s
+2025-06-16 11:30:05,121 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:05,123 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:05,211 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:05,216 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.095s
+2025-06-16 11:30:05,636 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:05,637 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:05,724 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:05,731 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.095s
+2025-06-16 11:30:06,137 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:06,138 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:06,226 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:06,233 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.096s
+2025-06-16 11:30:06,653 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:06,654 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:06,722 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:06,726 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.073s
+2025-06-16 11:30:07,168 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:07,169 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:07,242 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:07,245 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.077s
+2025-06-16 11:30:07,669 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:07,670 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:07,732 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:07,735 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.066s
+2025-06-16 11:30:08,171 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:08,172 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:08,257 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:08,265 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.094s
+2025-06-16 11:30:08,672 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:08,673 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:08,746 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:08,752 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.080s
+2025-06-16 11:30:09,188 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:09,189 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:09,267 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:09,273 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.085s
+2025-06-16 11:30:09,689 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:09,690 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:09,768 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:09,775 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.086s
+2025-06-16 11:30:10,192 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:10,193 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:10,278 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:10,284 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.093s
+2025-06-16 11:30:10,708 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:10,709 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:10,778 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:10,782 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.074s
+2025-06-16 11:30:11,224 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:11,226 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:11,297 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:11,300 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.076s
+2025-06-16 11:30:11,726 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:11,727 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:11,812 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:11,818 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.092s
+2025-06-16 11:30:12,241 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:12,242 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:12,298 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:12,301 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.061s
+2025-06-16 11:30:12,743 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:12,744 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:12,789 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:12,797 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.055s
+2025-06-16 11:30:13,245 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:13,247 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:13,313 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:13,320 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.074s
+2025-06-16 11:30:13,762 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:13,763 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:13,818 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:13,821 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.060s
+2025-06-16 11:30:14,263 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:14,264 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:14,321 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:14,324 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.061s
+2025-06-16 11:30:14,764 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:14,765 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:14,842 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:14,849 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.085s
+2025-06-16 11:30:15,277 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:15,278 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:15,354 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:15,358 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.081s
+2025-06-16 11:30:15,792 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:15,793 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:15,872 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:15,877 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.085s
+2025-06-16 11:30:16,292 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:16,294 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:16,359 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:16,366 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.074s
+2025-06-16 11:30:16,794 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:16,795 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:16,869 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:16,879 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.085s
+2025-06-16 11:30:17,295 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:17,297 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:17,373 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:17,381 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.086s
+2025-06-16 11:30:17,796 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 11:30:17,797 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 11:30:17,860 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 11:30:17,867 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.071s
+2025-06-16 11:30:18,108 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 11:30:19,247 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 11:30:20,409 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 11:35:02,241 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 11:35:02,272 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.030s
+2025-06-16 11:40:03,041 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 11:40:03,064 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.023s
+2025-06-16 11:45:03,066 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 11:45:03,089 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.023s
+2025-06-16 11:50:02,735 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 11:50:02,763 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.028s
+2025-06-16 11:55:02,974 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 11:55:03,000 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-16 12:00:02,440 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:00:02,481 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.041s
+2025-06-16 12:00:02,975 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:02,976 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:03,040 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:03,048 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.073s
+2025-06-16 12:00:03,489 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:03,489 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:03,490 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:03,570 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:03,580 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:03,620 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:03,625 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.137s
+2025-06-16 12:00:03,625 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.136s
+2025-06-16 12:00:03,993 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:03,994 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:03,994 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:04,036 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:04,040 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:04,083 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:04,087 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.093s
+2025-06-16 12:00:04,087 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.093s
+2025-06-16 12:00:04,503 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:04,504 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:04,505 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:04,586 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:04,592 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:04,643 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:04,646 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.143s
+2025-06-16 12:00:04,646 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.142s
+2025-06-16 12:00:05,008 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:05,009 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:05,050 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:05,054 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.046s
+2025-06-16 12:00:05,519 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:05,520 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:05,520 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:05,563 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:05,567 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:05,612 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:05,617 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.098s
+2025-06-16 12:00:05,617 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.098s
+2025-06-16 12:00:06,029 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:06,030 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:06,030 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:06,080 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:06,084 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:06,133 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:06,136 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.108s
+2025-06-16 12:00:06,137 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.107s
+2025-06-16 12:00:06,536 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:06,537 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:06,537 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:06,578 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:06,581 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:06,620 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:06,623 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.087s
+2025-06-16 12:00:06,623 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.087s
+2025-06-16 12:00:07,045 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:07,045 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:07,046 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:07,090 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:07,096 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:07,140 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:07,143 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.098s
+2025-06-16 12:00:07,143 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.098s
+2025-06-16 12:00:07,551 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:07,551 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:07,551 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:07,595 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:07,600 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:07,651 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:07,656 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.105s
+2025-06-16 12:00:07,656 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.105s
+2025-06-16 12:00:08,061 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:08,061 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:08,062 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:08,108 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:08,111 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:08,159 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:08,163 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.102s
+2025-06-16 12:00:08,163 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.102s
+2025-06-16 12:00:08,570 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:08,570 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:08,570 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:08,613 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:08,617 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:08,665 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:08,669 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.099s
+2025-06-16 12:00:08,669 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.099s
+2025-06-16 12:00:09,077 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:09,077 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:09,078 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:09,133 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:09,139 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:09,184 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:09,188 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.110s
+2025-06-16 12:00:09,188 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.110s
+2025-06-16 12:00:09,583 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:09,583 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:09,583 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:09,617 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:09,621 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:09,657 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:09,660 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.077s
+2025-06-16 12:00:09,660 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.077s
+2025-06-16 12:00:10,092 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:10,092 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:10,092 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:10,128 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:10,131 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:10,177 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:10,183 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.091s
+2025-06-16 12:00:10,183 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.091s
+2025-06-16 12:00:10,600 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:10,601 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:00:10,601 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:10,665 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:10,681 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:00:10,734 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:00:10,737 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.137s
+2025-06-16 12:00:10,737 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.137s
+2025-06-16 12:00:11,050 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 12:00:11,050 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 12:00:12,195 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 12:00:12,224 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 12:00:13,324 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 12:00:13,360 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 12:01:55,682 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:01:55,705 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.023s
+2025-06-16 12:02:45,795 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:02:45,818 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.023s
+2025-06-16 12:02:47,014 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:02:47,015 - routers.history_lines - INFO - History lines request: cursor=None, limit=500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:03:01,640 - routers.history_lines - INFO - Retrieved 500 history lines
+2025-06-16 12:03:01,742 - database - WARNING - Query exceeded timeout threshold: 14.73s
+2025-06-16 12:03:01,760 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 14.746s
+2025-06-16 12:03:02,255 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:03:02,256 - routers.history_lines - INFO - History lines request: cursor=MzpJTkUwMjIwOjE=, limit=500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:03:08,192 - routers.history_lines - INFO - Retrieved 500 history lines
+2025-06-16 12:03:08,206 - database - WARNING - Query exceeded timeout threshold: 5.95s
+2025-06-16 12:03:08,219 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.964s
+2025-06-16 12:03:08,603 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:03:08,604 - routers.history_lines - INFO - History lines request: cursor=NDpJQzExOTI1NDo2, limit=500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:03:14,816 - routers.history_lines - INFO - Retrieved 500 history lines
+2025-06-16 12:03:14,826 - database - WARNING - Query exceeded timeout threshold: 6.22s
+2025-06-16 12:03:14,842 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.239s
+2025-06-16 12:03:15,126 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:03:15,127 - routers.history_lines - INFO - History lines request: cursor=NDpJQzExOTQzMToy, limit=500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:03:21,248 - routers.history_lines - INFO - Retrieved 500 history lines
+2025-06-16 12:03:21,262 - database - WARNING - Query exceeded timeout threshold: 6.14s
+2025-06-16 12:03:21,279 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.153s
+2025-06-16 12:03:21,718 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:03:21,719 - routers.history_lines - INFO - History lines request: cursor=NDpJQzExOTU5NToy, limit=500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:03:27,389 - routers.history_lines - INFO - Retrieved 500 history lines
+2025-06-16 12:03:27,400 - database - WARNING - Query exceeded timeout threshold: 5.68s
+2025-06-16 12:03:27,413 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.695s
+2025-06-16 12:03:27,722 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:03:27,723 - routers.history_lines - INFO - History lines request: cursor=NDpJQzExOTc2MTox, limit=500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:03:33,807 - routers.history_lines - INFO - Retrieved 500 history lines
+2025-06-16 12:03:33,824 - database - WARNING - Query exceeded timeout threshold: 6.10s
+2025-06-16 12:03:33,840 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.118s
+2025-06-16 12:03:34,080 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:03:34,081 - routers.history_lines - INFO - History lines request: cursor=NDpJQzExOTkzOTo4, limit=500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:03:39,970 - routers.history_lines - INFO - Retrieved 500 history lines
+2025-06-16 12:03:39,987 - database - WARNING - Query exceeded timeout threshold: 5.91s
+2025-06-16 12:03:40,008 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.928s
+2025-06-16 12:03:40,260 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:03:40,261 - routers.history_lines - INFO - History lines request: cursor=NDpJQzEyMDEwMjoy, limit=500, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:03:45,848 - routers.history_lines - INFO - Retrieved 500 history lines
+2025-06-16 12:03:45,858 - database - WARNING - Query exceeded timeout threshold: 5.60s
+2025-06-16 12:03:45,868 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.608s
+2025-06-16 12:05:02,608 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:05:02,634 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-16 12:10:03,227 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:10:03,262 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.035s
+2025-06-16 12:15:02,398 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:15:02,421 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.022s
+2025-06-16 12:18:32,454 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:18:32,530 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.076s
+2025-06-16 12:18:32,972 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:18:32,974 - routers.history_lines - INFO - History lines request: cursor=None, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:18:39,728 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:18:39,744 - database - WARNING - Query exceeded timeout threshold: 6.77s
+2025-06-16 12:18:39,895 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.923s
+2025-06-16 12:18:42,173 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:18:42,175 - routers.history_lines - INFO - History lines request: cursor=MzpJTkExMDk2MDoz, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:18:49,278 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:18:49,293 - database - WARNING - Query exceeded timeout threshold: 7.12s
+2025-06-16 12:18:49,420 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 7.247s
+2025-06-16 12:18:51,390 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:18:51,391 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEyNDE5MDox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:18:58,451 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:18:58,462 - database - WARNING - Query exceeded timeout threshold: 7.07s
+2025-06-16 12:18:58,583 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 7.194s
+2025-06-16 12:18:59,994 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:18:59,995 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEyNjE4Mjo2, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:19:06,803 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:19:06,815 - database - WARNING - Query exceeded timeout threshold: 6.82s
+2025-06-16 12:19:06,987 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.993s
+2025-06-16 12:19:08,741 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:19:08,742 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEyODE2OTox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:19:15,411 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:19:15,426 - database - WARNING - Query exceeded timeout threshold: 6.68s
+2025-06-16 12:19:15,566 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.824s
+2025-06-16 12:20:03,149 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:20:03,173 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.023s
+2025-06-16 12:22:48,633 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:22:48,659 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.026s
+2025-06-16 12:22:49,137 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:22:49,138 - routers.history_lines - INFO - History lines request: cursor=None, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:22:56,169 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:22:56,179 - database - WARNING - Query exceeded timeout threshold: 7.04s
+2025-06-16 12:22:56,285 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 7.148s
+2025-06-16 12:23:02,760 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:23:02,760 - routers.history_lines - INFO - History lines request: cursor=MzpJTkExMDk2MDoz, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:23:10,309 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:23:10,319 - database - WARNING - Query exceeded timeout threshold: 7.56s
+2025-06-16 12:23:10,399 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 7.639s
+2025-06-16 12:23:14,722 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:23:14,723 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEyNDE5MDox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:23:22,162 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:23:22,174 - database - WARNING - Query exceeded timeout threshold: 7.45s
+2025-06-16 12:23:22,254 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 7.531s
+2025-06-16 12:23:27,008 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:23:27,009 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEyNjE4Mjo2, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:23:34,286 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:23:34,301 - database - WARNING - Query exceeded timeout threshold: 7.29s
+2025-06-16 12:23:34,428 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 7.420s
+2025-06-16 12:23:39,030 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:23:39,031 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEyODE2OTox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:23:45,954 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:23:45,971 - database - WARNING - Query exceeded timeout threshold: 6.94s
+2025-06-16 12:23:46,143 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 7.113s
+2025-06-16 12:23:50,971 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:23:50,972 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEzMDMzNjoy, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:23:57,615 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:23:57,625 - database - WARNING - Query exceeded timeout threshold: 6.65s
+2025-06-16 12:23:57,772 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.800s
+2025-06-16 12:24:02,651 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:24:02,652 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEzMjY1Nzo1, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:24:09,595 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:24:09,605 - database - WARNING - Query exceeded timeout threshold: 6.95s
+2025-06-16 12:24:09,712 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 7.061s
+2025-06-16 12:24:13,900 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:24:13,902 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEzNDg4OTox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:24:20,869 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:24:20,878 - database - WARNING - Query exceeded timeout threshold: 6.98s
+2025-06-16 12:24:20,975 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 7.075s
+2025-06-16 12:24:25,625 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:24:25,627 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEzNzI1Nzox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:24:32,201 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:24:32,216 - database - WARNING - Query exceeded timeout threshold: 6.59s
+2025-06-16 12:24:32,348 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.722s
+2025-06-16 12:24:36,919 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:24:36,920 - routers.history_lines - INFO - History lines request: cursor=MzpJTkEzOTcwMToy, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:24:43,186 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:24:43,200 - database - WARNING - Query exceeded timeout threshold: 6.28s
+2025-06-16 12:24:43,349 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.430s
+2025-06-16 12:24:47,830 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:24:47,831 - routers.history_lines - INFO - History lines request: cursor=MzpJTkE0MjA1ODoy, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:24:54,701 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:24:54,711 - database - WARNING - Query exceeded timeout threshold: 6.88s
+2025-06-16 12:24:54,811 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.982s
+2025-06-16 12:24:59,397 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:24:59,398 - routers.history_lines - INFO - History lines request: cursor=MzpJTkE0NDQ0Nzox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:25:05,745 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:25:05,753 - database - WARNING - Query exceeded timeout threshold: 6.35s
+2025-06-16 12:25:05,878 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.481s
+2025-06-16 12:25:05,889 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:25:05,907 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.018s
+2025-06-16 12:25:10,960 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:25:10,961 - routers.history_lines - INFO - History lines request: cursor=MzpJTkE0NjgxMDox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:25:17,211 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:25:17,222 - database - WARNING - Query exceeded timeout threshold: 6.26s
+2025-06-16 12:25:17,325 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.365s
+2025-06-16 12:25:21,654 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:25:21,654 - routers.history_lines - INFO - History lines request: cursor=MzpJTkE0OTA4NDoy, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:25:29,745 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:25:29,756 - database - WARNING - Query exceeded timeout threshold: 8.10s
+2025-06-16 12:25:29,874 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 8.220s
+2025-06-16 12:25:34,384 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:25:34,385 - routers.history_lines - INFO - History lines request: cursor=MzpJTkE1MTM5Nzoy, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:25:40,483 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:25:40,492 - database - WARNING - Query exceeded timeout threshold: 6.11s
+2025-06-16 12:25:40,621 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.237s
+2025-06-16 12:25:45,050 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:25:45,051 - routers.history_lines - INFO - History lines request: cursor=MzpJTkE1MzgxNDox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:25:51,133 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:25:51,142 - database - WARNING - Query exceeded timeout threshold: 6.09s
+2025-06-16 12:25:51,252 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.202s
+2025-06-16 12:25:55,683 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:25:55,685 - routers.history_lines - INFO - History lines request: cursor=MzpJTkE1NjE3ODox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:26:01,501 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:26:01,510 - database - WARNING - Query exceeded timeout threshold: 5.83s
+2025-06-16 12:26:01,623 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.940s
+2025-06-16 12:26:05,813 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:26:05,814 - routers.history_lines - INFO - History lines request: cursor=MzpJTkMwMTE5OToy, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:26:12,340 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:26:12,348 - database - WARNING - Query exceeded timeout threshold: 6.53s
+2025-06-16 12:26:12,469 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 6.656s
+2025-06-16 12:26:16,931 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:26:16,932 - routers.history_lines - INFO - History lines request: cursor=MzpJTkMwMzQ0MToy, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:26:22,699 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:26:22,711 - database - WARNING - Query exceeded timeout threshold: 5.78s
+2025-06-16 12:26:22,847 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.916s
+2025-06-16 12:26:27,182 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:26:27,183 - routers.history_lines - INFO - History lines request: cursor=NDpJQ0E0MTkyMToy, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:26:32,655 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:26:32,663 - database - WARNING - Query exceeded timeout threshold: 5.48s
+2025-06-16 12:26:32,748 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.567s
+2025-06-16 12:26:36,964 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:26:36,965 - routers.history_lines - INFO - History lines request: cursor=NDpJQ0E0MzYwODo3, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:26:42,047 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:26:42,059 - database - WARNING - Query exceeded timeout threshold: 5.09s
+2025-06-16 12:26:42,199 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.235s
+2025-06-16 12:26:46,473 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:26:46,474 - routers.history_lines - INFO - History lines request: cursor=NDpJQ0E0NTQzMDox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:26:51,494 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:26:51,500 - database - WARNING - Query exceeded timeout threshold: 5.03s
+2025-06-16 12:26:51,647 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.174s
+2025-06-16 12:26:56,097 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:26:56,099 - routers.history_lines - INFO - History lines request: cursor=NDpJQ0E0NzQ2Mzoy, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:27:01,149 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:27:01,158 - database - WARNING - Query exceeded timeout threshold: 5.06s
+2025-06-16 12:27:01,285 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 5.187s
+2025-06-16 12:27:04,342 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:27:04,343 - routers.history_lines - INFO - History lines request: cursor=ODpQTkExMjc1ODox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:27:09,087 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:27:09,094 - database - WARNING - Query exceeded timeout threshold: 4.75s
+2025-06-16 12:27:09,238 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 4.897s
+2025-06-16 12:27:09,819 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:27:09,821 - routers.history_lines - INFO - History lines request: cursor=ODpQTkExNDM3MDo0, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:27:14,216 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:27:14,224 - database - WARNING - Query exceeded timeout threshold: 4.40s
+2025-06-16 12:27:14,385 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 4.565s
+2025-06-16 12:27:15,076 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:27:15,077 - routers.history_lines - INFO - History lines request: cursor=ODpQTkExNTg1Njo0, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:27:19,675 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:27:19,681 - database - WARNING - Query exceeded timeout threshold: 4.60s
+2025-06-16 12:27:19,790 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 4.715s
+2025-06-16 12:27:20,365 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:27:20,366 - routers.history_lines - INFO - History lines request: cursor=ODpQTkExNzQ0Njo0, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:27:25,019 - routers.history_lines - INFO - Retrieved 4500 history lines
+2025-06-16 12:27:25,028 - database - WARNING - Query exceeded timeout threshold: 4.66s
+2025-06-16 12:27:25,143 - main - INFO - Response: GET /api/history-lines - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 4.778s
+2025-06-16 12:27:25,794 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:27:25,795 - routers.history_lines - INFO - History lines request: cursor=ODpQTkExOTQ3MTox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:27:29,259 - database - WARNING - Query exceeded timeout threshold: 3.46s
+2025-06-16 12:27:29,264 - routers.history_lines - ERROR - Error fetching history lines: 1 validation error for HistoryLine
+cost_sync_done
+  Input should be a valid string [type=string_type, input_value=115, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-06-16 12:27:29,264 - routers.history_lines - ERROR - Query parameters: cursor=ODpQTkExOTQ3MTox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None
+2025-06-16 12:27:29,265 - main - INFO - Response: GET /api/history-lines - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 3.471s
+2025-06-16 12:27:29,265 - main - WARNING - Error response 500 for GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:27:30,499 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:27:30,500 - routers.history_lines - INFO - History lines request: cursor=ODpQTkExOTQ3MTox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:27:34,168 - database - WARNING - Query exceeded timeout threshold: 3.67s
+2025-06-16 12:27:34,169 - routers.history_lines - ERROR - Error fetching history lines: 1 validation error for HistoryLine
+cost_sync_done
+  Input should be a valid string [type=string_type, input_value=115, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-06-16 12:27:34,169 - routers.history_lines - ERROR - Query parameters: cursor=ODpQTkExOTQ3MTox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None
+2025-06-16 12:27:34,169 - main - INFO - Response: GET /api/history-lines - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 3.670s
+2025-06-16 12:27:34,169 - main - WARNING - Error response 500 for GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:27:35,318 - main - INFO - Incoming request: GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:27:35,319 - routers.history_lines - INFO - History lines request: cursor=ODpQTkExOTQ3MTox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None, customer_code=None, item_code=None
+2025-06-16 12:27:39,126 - database - WARNING - Query exceeded timeout threshold: 3.81s
+2025-06-16 12:27:39,126 - routers.history_lines - ERROR - Error fetching history lines: 1 validation error for HistoryLine
+cost_sync_done
+  Input should be a valid string [type=string_type, input_value=115, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-06-16 12:27:39,126 - routers.history_lines - ERROR - Query parameters: cursor=ODpQTkExOTQ3MTox, limit=4500, from_date=2019-06-01, to_date=2026-06-16, document_type=None, document_number=None
+2025-06-16 12:27:39,127 - main - INFO - Response: GET /api/history-lines - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 3.808s
+2025-06-16 12:27:39,127 - main - WARNING - Error response 500 for GET /api/history-lines from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 12:30:03,219 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:30:03,245 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-16 12:30:03,734 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:03,735 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:03,802 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:03,824 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.090s
+2025-06-16 12:30:04,251 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:04,252 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:04,331 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:04,338 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.087s
+2025-06-16 12:30:04,753 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:04,754 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:04,829 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:04,833 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.080s
+2025-06-16 12:30:05,269 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:05,270 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:05,351 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:05,357 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.088s
+2025-06-16 12:30:05,786 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:05,787 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:05,853 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:05,859 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.073s
+2025-06-16 12:30:06,287 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:06,288 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:06,366 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:06,373 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.086s
+2025-06-16 12:30:06,804 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:06,805 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:06,882 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:06,888 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.085s
+2025-06-16 12:30:07,304 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:07,305 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:07,357 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:07,360 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.056s
+2025-06-16 12:30:07,806 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:07,808 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:07,875 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:07,880 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.074s
+2025-06-16 12:30:08,306 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:08,308 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:08,384 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:08,391 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.085s
+2025-06-16 12:30:08,807 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:08,808 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:08,853 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:08,856 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.049s
+2025-06-16 12:30:09,318 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:09,319 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:09,392 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:09,398 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.080s
+2025-06-16 12:30:09,819 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:09,820 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:09,890 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:09,893 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.074s
+2025-06-16 12:30:10,321 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:10,322 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:10,387 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:10,390 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.070s
+2025-06-16 12:30:10,822 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:10,823 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:10,899 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:10,907 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.085s
+2025-06-16 12:30:11,324 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:11,326 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:11,395 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:11,400 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.076s
+2025-06-16 12:30:11,841 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:11,843 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:11,921 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:11,927 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.086s
+2025-06-16 12:30:12,341 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:12,341 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:12,398 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:12,401 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.061s
+2025-06-16 12:30:12,843 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:12,844 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:12,890 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:12,895 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.052s
+2025-06-16 12:30:13,357 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:13,357 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:13,403 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:13,409 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.052s
+2025-06-16 12:30:13,861 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:13,862 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:13,930 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:13,934 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.073s
+2025-06-16 12:30:14,363 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:14,364 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:14,440 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:14,449 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.086s
+2025-06-16 12:30:14,865 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:14,866 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:14,936 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:14,939 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.074s
+2025-06-16 12:30:15,365 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:15,366 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:15,438 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:15,445 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.080s
+2025-06-16 12:30:15,868 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:15,869 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:15,934 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:15,937 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.069s
+2025-06-16 12:30:16,368 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:16,369 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:16,445 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:16,448 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.080s
+2025-06-16 12:30:16,883 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:16,884 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:16,960 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:16,966 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.084s
+2025-06-16 12:30:17,384 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:17,385 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:17,447 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:17,450 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.067s
+2025-06-16 12:30:17,885 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 12:30:17,886 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 12:30:17,945 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 12:30:17,951 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.066s
+2025-06-16 12:30:18,227 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 12:30:19,350 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 12:30:20,478 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 12:35:03,023 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:35:03,053 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.030s
+2025-06-16 12:40:03,040 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:40:03,066 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-16 12:45:02,861 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:45:02,885 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.024s
+2025-06-16 12:50:03,227 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:50:03,250 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.023s
+2025-06-16 12:55:02,978 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 12:55:03,010 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.033s
+2025-06-16 13:00:03,548 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:00:03,571 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.023s
+2025-06-16 13:00:04,054 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:04,054 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:04,055 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:04,136 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:04,142 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:04,203 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:04,206 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.152s
+2025-06-16 13:00:04,206 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.152s
+2025-06-16 13:00:04,565 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:04,566 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:04,566 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:04,629 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:04,632 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:04,680 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:04,686 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.121s
+2025-06-16 13:00:04,686 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.120s
+2025-06-16 13:00:05,081 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:05,082 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:05,083 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:05,156 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:05,160 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:05,228 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:05,234 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.153s
+2025-06-16 13:00:05,234 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.153s
+2025-06-16 13:00:05,594 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:05,594 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:05,595 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:05,655 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:05,658 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:05,718 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:05,725 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.131s
+2025-06-16 13:00:05,725 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.131s
+2025-06-16 13:00:06,104 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:06,105 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:06,105 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:06,178 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:06,184 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:06,230 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:06,233 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.129s
+2025-06-16 13:00:06,233 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.129s
+2025-06-16 13:00:06,614 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:06,615 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:06,616 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:06,687 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:06,694 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:06,762 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:06,768 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.154s
+2025-06-16 13:00:06,769 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.154s
+2025-06-16 13:00:07,123 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:07,124 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:07,125 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:07,196 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:07,200 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:07,265 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:07,271 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.148s
+2025-06-16 13:00:07,272 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.148s
+2025-06-16 13:00:07,634 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:07,635 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:07,636 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:07,704 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:07,712 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:07,776 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:07,781 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.147s
+2025-06-16 13:00:07,782 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.147s
+2025-06-16 13:00:08,145 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:08,146 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:08,147 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:08,217 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:08,220 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:08,281 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:08,288 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.143s
+2025-06-16 13:00:08,288 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.143s
+2025-06-16 13:00:08,657 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:08,658 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:08,659 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:08,725 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:08,729 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:08,760 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:08,763 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.106s
+2025-06-16 13:00:08,763 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.105s
+2025-06-16 13:00:09,168 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:09,168 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:09,169 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:09,236 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:09,240 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:09,294 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:09,297 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.130s
+2025-06-16 13:00:09,298 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.130s
+2025-06-16 13:00:09,679 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:09,680 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:09,681 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:09,744 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:09,748 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:09,797 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:09,801 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.122s
+2025-06-16 13:00:09,801 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.121s
+2025-06-16 13:00:10,192 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:10,192 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:10,193 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:10,271 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:10,278 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:10,338 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:10,342 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.150s
+2025-06-16 13:00:10,342 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.150s
+2025-06-16 13:00:10,702 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:10,702 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:10,703 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:10,775 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:10,781 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:10,840 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:10,843 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.142s
+2025-06-16 13:00:10,843 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.141s
+2025-06-16 13:00:11,213 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:11,213 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 13:00:11,214 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:11,288 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:11,296 - routers.invoices - INFO - Invoice request: cursor=None, limit=100, from_date=None, to_date=None, customer_code=None, document_type=None
+2025-06-16 13:00:11,366 - routers.invoices - INFO - Retrieved 100 invoices
+2025-06-16 13:00:11,373 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.161s
+2025-06-16 13:00:11,373 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 0.160s
+2025-06-16 13:00:11,630 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 13:00:11,632 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 13:00:12,790 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 13:00:12,811 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 13:00:13,917 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 13:00:13,946 - main - WARNING - Rate limit exceeded for 13.247.230.43
+2025-06-16 13:02:57,540 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:02:57,565 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.026s
+2025-06-16 13:02:58,052 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:02:58,053 - routers.invoices - INFO - Invoice request: cursor=None, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:02:59,993 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:03:00,157 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.105s
+2025-06-16 13:03:08,194 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:03:08,194 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEyNTU0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:03:09,761 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:03:09,840 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.647s
+2025-06-16 13:03:17,607 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:03:17,607 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzMDA0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:03:19,661 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:03:19,662 - database - WARNING - Query exceeded timeout threshold: 2.05s
+2025-06-16 13:03:19,784 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.177s
+2025-06-16 13:03:27,630 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:03:27,630 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzNDU0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:03:29,800 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:03:29,802 - database - WARNING - Query exceeded timeout threshold: 2.17s
+2025-06-16 13:03:29,924 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.294s
+2025-06-16 13:03:37,988 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:03:37,989 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzOTA0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:03:39,865 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:03:39,993 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.005s
+2025-06-16 13:03:47,650 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:03:47,651 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE0Mzg2Mw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:03:49,283 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:03:49,397 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.747s
+2025-06-16 13:03:56,627 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:03:56,628 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE0ODM2Mw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:03:58,203 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:03:58,346 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.719s
+2025-06-16 13:04:05,019 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:05,020 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE1Mjg2NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:06,502 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:04:06,631 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.612s
+2025-06-16 13:04:14,150 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:14,151 - routers.invoices - INFO - Invoice request: cursor=MzpJTkMwMDcxNw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:15,816 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:04:15,964 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.815s
+2025-06-16 13:04:23,538 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:23,538 - routers.invoices - INFO - Invoice request: cursor=NDpJQ0E0MTg1Nw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:25,056 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:04:25,170 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.632s
+2025-06-16 13:04:32,680 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:32,680 - routers.invoices - INFO - Invoice request: cursor=NDpJQ0E0NjM1Nw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:34,474 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:04:34,572 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.892s
+2025-06-16 13:04:38,738 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:38,739 - routers.invoices - INFO - Invoice request: cursor=ODpQTkExNDA4NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:40,270 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:04:40,369 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.631s
+2025-06-16 13:04:41,215 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:41,217 - routers.invoices - INFO - Invoice request: cursor=ODpQTkExODU4NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:42,648 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:04:42,740 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.524s
+2025-06-16 13:04:43,401 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:43,402 - routers.invoices - INFO - Invoice request: cursor=ODpQTkEzMDM2MQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:45,009 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:04:45,106 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.706s
+2025-06-16 13:04:45,825 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:45,825 - routers.invoices - INFO - Invoice request: cursor=ODpQTkEzNDg2MQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:47,402 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:04:47,514 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.690s
+2025-06-16 13:04:48,222 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:48,223 - routers.invoices - INFO - Invoice request: cursor=ODpQTkMwMDc4Ng==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:49,769 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 13:04:49,873 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.651s
+2025-06-16 13:04:50,580 - main - INFO - Incoming request: GET /api/invoices from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:04:50,581 - routers.invoices - INFO - Invoice request: cursor=ODpQTkMwNTI4Ng==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 13:04:51,642 - routers.invoices - INFO - Retrieved 3180 invoices
+2025-06-16 13:04:51,701 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.121s
+2025-06-16 13:05:03,086 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:05:03,112 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-16 13:10:03,130 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:10:03,163 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.033s
+2025-06-16 13:15:02,833 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:15:02,862 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.028s
+2025-06-16 13:20:02,570 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:20:02,604 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.034s
+2025-06-16 13:25:02,350 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:25:02,376 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-16 13:30:03,123 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:30:03,155 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.032s
+2025-06-16 13:35:01,801 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:35:01,827 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-16 13:40:03,209 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:40:03,236 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.027s
+2025-06-16 13:45:02,535 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:45:02,559 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.023s
+2025-06-16 13:50:02,665 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:50:02,698 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.033s
+2025-06-16 13:55:03,003 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 13:55:03,030 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.027s
+2025-06-16 13:58:31,598 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:58:31,652 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.054s
+2025-06-16 13:58:32,099 - main - INFO - Incoming request: GET /api/inventory-categories from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:58:32,100 - routers.inventory_categories - INFO - Inventory category request: cursor=None, limit=10, ic_code=None
+2025-06-16 13:58:32,140 - routers.inventory_categories - INFO - Retrieved 10 inventory categories
+2025-06-16 13:58:32,144 - main - INFO - Response: GET /api/inventory-categories - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.045s
+2025-06-16 13:58:36,346 - main - INFO - Incoming request: GET /api/inventory-categories from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:58:36,346 - routers.inventory_categories - INFO - Inventory category request: cursor=MDEw, limit=10, ic_code=None
+2025-06-16 13:58:36,363 - routers.inventory_categories - INFO - Retrieved 10 inventory categories
+2025-06-16 13:58:36,364 - main - INFO - Response: GET /api/inventory-categories - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.019s
+2025-06-16 13:58:39,554 - main - INFO - Incoming request: GET /api/inventory-categories from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:58:39,555 - routers.inventory_categories - INFO - Inventory category request: cursor=MDIy, limit=10, ic_code=None
+2025-06-16 13:58:39,574 - routers.inventory_categories - INFO - Retrieved 10 inventory categories
+2025-06-16 13:58:39,576 - main - INFO - Response: GET /api/inventory-categories - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.023s
+2025-06-16 13:58:43,767 - main - INFO - Incoming request: GET /api/inventory-categories from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:58:43,767 - routers.inventory_categories - INFO - Inventory category request: cursor=MDMz, limit=10, ic_code=None
+2025-06-16 13:58:43,787 - routers.inventory_categories - INFO - Retrieved 10 inventory categories
+2025-06-16 13:58:43,790 - main - INFO - Response: GET /api/inventory-categories - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.024s
+2025-06-16 13:58:47,981 - main - INFO - Incoming request: GET /api/inventory-categories from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:58:47,982 - routers.inventory_categories - INFO - Inventory category request: cursor=MDQ3, limit=10, ic_code=None
+2025-06-16 13:58:48,003 - routers.inventory_categories - INFO - Retrieved 10 inventory categories
+2025-06-16 13:58:48,006 - main - INFO - Response: GET /api/inventory-categories - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.025s
+2025-06-16 13:58:52,160 - main - INFO - Incoming request: GET /api/inventory-categories from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:58:52,161 - routers.inventory_categories - INFO - Inventory category request: cursor=MDY2, limit=10, ic_code=None
+2025-06-16 13:58:52,183 - routers.inventory_categories - INFO - Retrieved 2 inventory categories
+2025-06-16 13:58:52,185 - main - INFO - Response: GET /api/inventory-categories - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.026s
+2025-06-16 13:59:23,302 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:23,326 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.024s
+2025-06-16 13:59:23,805 - main - INFO - Incoming request: GET /api/inventory-categories from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:23,806 - routers.inventory_categories - INFO - Inventory category request: cursor=None, limit=50, ic_code=None
+2025-06-16 13:59:23,831 - routers.inventory_categories - INFO - Retrieved 50 inventory categories
+2025-06-16 13:59:23,834 - main - INFO - Response: GET /api/inventory-categories - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.029s
+2025-06-16 13:59:27,077 - main - INFO - Incoming request: GET /api/inventory-categories from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:27,078 - routers.inventory_categories - INFO - Inventory category request: cursor=MDY2, limit=50, ic_code=None
+2025-06-16 13:59:27,102 - routers.inventory_categories - INFO - Retrieved 2 inventory categories
+2025-06-16 13:59:27,105 - main - INFO - Response: GET /api/inventory-categories - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.028s
+2025-06-16 13:59:31,874 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:31,901 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.027s
+2025-06-16 13:59:32,374 - main - INFO - Incoming request: GET /api/inventory-groups from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:32,375 - routers.inventory_groups - INFO - Inventory groups request: cursor=None, limit=50, inv_group=None
+2025-06-16 13:59:32,403 - routers.inventory_groups - INFO - Retrieved 50 inventory groups
+2025-06-16 13:59:32,406 - main - INFO - Response: GET /api/inventory-groups - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.032s
+2025-06-16 13:59:35,624 - main - INFO - Incoming request: GET /api/inventory-groups from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:35,625 - routers.inventory_groups - INFO - Inventory groups request: cursor=MDY1, limit=50, inv_group=None
+2025-06-16 13:59:35,648 - routers.inventory_groups - INFO - Retrieved 1 inventory groups
+2025-06-16 13:59:35,650 - main - INFO - Response: GET /api/inventory-groups - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.026s
+2025-06-16 13:59:39,645 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:39,672 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.027s
+2025-06-16 13:59:40,160 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:40,161 - routers.inventory - INFO - Inventory request: cursor=None, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 13:59:40,255 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 13:59:40,257 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.098s
+2025-06-16 13:59:43,559 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:43,560 - routers.inventory - INFO - Inventory request: cursor=MTAzMTg2NDUwMA==, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 13:59:43,604 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 13:59:43,607 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.049s
+2025-06-16 13:59:47,825 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:47,826 - routers.inventory - INFO - Inventory request: cursor=MjAyMzAxMjAyNUdXSw==, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 13:59:47,875 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 13:59:47,877 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.053s
+2025-06-16 13:59:52,081 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:52,082 - routers.inventory - INFO - Inventory request: cursor=MjA1MzAxMjAxMg==, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 13:59:52,141 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 13:59:52,145 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.064s
+2025-06-16 13:59:56,409 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:56,410 - routers.inventory - INFO - Inventory request: cursor=MzAzMDA4NzAwMg==, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 13:59:56,469 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 13:59:56,472 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.063s
+2025-06-16 13:59:59,703 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 13:59:59,704 - routers.inventory - INFO - Inventory request: cursor=NDAxODAwMDAwMA==, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 13:59:59,743 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 13:59:59,746 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-16 14:00:03,286 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:00:03,311 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.025s
+2025-06-16 14:00:03,985 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:00:03,986 - routers.inventory - INFO - Inventory request: cursor=ODA1MTU0MTAwMg==, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 14:00:04,033 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 14:00:04,037 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.053s
+2025-06-16 14:00:04,557 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:00:04,581 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.023s
+2025-06-16 14:00:05,068 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:00:05,070 - routers.invoices - INFO - Invoice request: cursor=None, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:00:07,211 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:00:07,212 - database - WARNING - Query exceeded timeout threshold: 2.14s
+2025-06-16 14:00:07,318 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.250s
+2025-06-16 14:00:08,293 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:00:08,293 - routers.inventory - INFO - Inventory request: cursor=OTk5OTk5OTkxMg==, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 14:00:08,316 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 14:00:08,318 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.025s
+2025-06-16 14:00:11,571 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:00:11,572 - routers.inventory - INFO - Inventory request: cursor=OTk5OTk5OTk2MUNIRw==, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 14:00:11,615 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 14:00:11,619 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.048s
+2025-06-16 14:00:15,896 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:00:15,897 - routers.inventory - INFO - Inventory request: cursor=UEJBR0JDQ0YyLjVLRw==, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 14:00:15,939 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 14:00:15,943 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.047s
+2025-06-16 14:00:20,181 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:00:20,182 - routers.inventory - INFO - Inventory request: cursor=UEJBR1dCRjI1SzQ4Kjg1, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 14:00:20,217 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 14:00:20,221 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.040s
+2025-06-16 14:00:24,452 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:00:24,452 - routers.inventory - INFO - Inventory request: cursor=UFNUSUNLRVItQ0YxS0c=, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 14:00:24,503 - routers.inventory - INFO - Retrieved 50 inventory items
+2025-06-16 14:00:24,507 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.055s
+2025-06-16 14:00:27,809 - main - INFO - Incoming request: GET /api/inventory from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:00:27,810 - routers.inventory - INFO - Inventory request: cursor=UFdSQVA2NDAqNzA=, limit=50, item_code=None, category=None, blocked=None, physical=None
+2025-06-16 14:00:27,849 - routers.inventory - INFO - Retrieved 42 inventory items
+2025-06-16 14:00:27,852 - main - INFO - Response: GET /api/inventory - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.043s
+2025-06-16 14:00:30,365 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:00:30,365 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEyNTU0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:00:32,335 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:00:32,416 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.051s
+2025-06-16 14:00:53,820 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:00:53,821 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzMDA0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:00:55,806 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:00:55,930 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.110s
+2025-06-16 14:01:20,818 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:01:20,819 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzNDU0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:01:22,568 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:01:22,650 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.832s
+2025-06-16 14:01:44,390 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:01:44,391 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzOTA0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:01:46,199 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:01:46,382 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.993s
+2025-06-16 14:02:09,089 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:02:09,089 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE0Mzg2Mw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:02:10,749 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:02:10,855 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.766s
+2025-06-16 14:02:31,313 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:02:31,315 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE0ODM2Mw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:02:33,212 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:02:33,383 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.070s
+2025-06-16 14:02:53,530 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:02:53,530 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE1Mjg2NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:02:55,251 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:02:55,333 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.804s
+2025-06-16 14:03:17,526 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:03:17,526 - routers.invoices - INFO - Invoice request: cursor=MzpJTkMwMDcxNw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:03:19,524 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:03:19,619 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.093s
+2025-06-16 14:03:41,932 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:03:41,932 - routers.invoices - INFO - Invoice request: cursor=NDpJQ0E0MTg1Nw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:03:43,821 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:03:43,984 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.052s
+2025-06-16 14:04:20,137 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:04:20,138 - routers.invoices - INFO - Invoice request: cursor=NDpJQ0E0NjM1Nw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:04:22,138 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:04:22,140 - database - WARNING - Query exceeded timeout threshold: 2.00s
+2025-06-16 14:04:22,273 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.136s
+2025-06-16 14:04:38,553 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:04:38,553 - routers.invoices - INFO - Invoice request: cursor=ODpQTkExNDA4NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:04:40,168 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:04:40,298 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.746s
+2025-06-16 14:04:40,929 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:04:40,930 - routers.invoices - INFO - Invoice request: cursor=ODpQTkExODU4NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:04:42,722 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:04:42,824 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.896s
+2025-06-16 14:04:43,387 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:04:43,388 - routers.invoices - INFO - Invoice request: cursor=ODpQTkEzMDM2MQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:04:45,177 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:04:45,290 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.904s
+2025-06-16 14:04:45,858 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:04:45,859 - routers.invoices - INFO - Invoice request: cursor=ODpQTkEzNDg2MQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:04:47,645 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:04:47,740 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.883s
+2025-06-16 14:04:48,281 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:04:48,282 - routers.invoices - INFO - Invoice request: cursor=ODpQTkMwMDc4Ng==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:04:50,162 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 14:04:50,304 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.023s
+2025-06-16 14:04:50,841 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 14:04:50,842 - routers.invoices - INFO - Invoice request: cursor=ODpQTkMwNTI4Ng==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 14:04:52,195 - routers.invoices - INFO - Retrieved 3180 invoices
+2025-06-16 14:04:52,251 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.410s
+2025-06-16 14:05:02,872 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:05:02,897 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.025s

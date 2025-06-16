@@ -16,13 +16,15 @@ logger = logging.getLogger(__name__)
 async def get_history_lines(
     cursor: Optional[str] = Query(None, description="Cursor for pagination"),
     limit: int = Query(settings.default_page_size, ge=1, le=settings.max_page_size),
+    from_date: Optional[date] = Query(None, description="Filter by start date"),
+    to_date: Optional[date] = Query(None, description="Filter by end date"),
     document_type: Optional[int] = Query(None, description="Filter by document type"),
     document_number: Optional[str] = Query(None, description="Filter by document number"),
     customer_code: Optional[str] = Query(None, description="Filter by customer code"),
     item_code: Optional[str] = Query(None, description="Filter by item code")
 ):
     """Get a paginated list of history lines"""
-    logger.info(f"History lines request: cursor={cursor}, limit={limit}, document_type={document_type}, document_number={document_number}, customer_code={customer_code}, item_code={item_code}")
+    logger.info(f"History lines request: cursor={cursor}, limit={limit}, from_date={from_date}, to_date={to_date}, document_type={document_type}, document_number={document_number}, customer_code={customer_code}, item_code={item_code}")
     
     try:
         with db_pool.get_connection() as conn:
@@ -49,6 +51,14 @@ async def get_history_lines(
             params = []
             
             # Add filters
+            if from_date:
+                query += " AND DDate >= ?"
+                params.append(from_date)
+            
+            if to_date:
+                query += " AND DDate <= ?"
+                params.append(to_date)
+            
             if document_type is not None:
                 query += " AND DocumentType = ?"
                 params.append(document_type)
@@ -148,7 +158,7 @@ async def get_history_lines(
             
     except Exception as e:
         logger.error(f"Error fetching history lines: {e}")
-        logger.error(f"Query parameters: cursor={cursor}, limit={limit}, document_type={document_type}, document_number={document_number}")
+        logger.error(f"Query parameters: cursor={cursor}, limit={limit}, from_date={from_date}, to_date={to_date}, document_type={document_type}, document_number={document_number}")
         raise HTTPException(status_code=500, detail=f"Failed to fetch history lines: {str(e)}")
 
 # Single history line endpoint
@@ -238,15 +248,19 @@ async def get_invoice_lines(
     document_type: int,
     document_number: str,
     cursor: Optional[str] = Query(None, description="Cursor for pagination"),
-    limit: int = Query(settings.default_page_size, ge=1, le=settings.max_page_size)
+    limit: int = Query(settings.default_page_size, ge=1, le=settings.max_page_size),
+    from_date: Optional[date] = Query(None, description="Filter by start date"),
+    to_date: Optional[date] = Query(None, description="Filter by end date")
 ):
     """Get all history lines for a specific invoice"""
-    logger.info(f"Invoice lines request: document_type={document_type}, document_number={document_number}, cursor={cursor}, limit={limit}")
+    logger.info(f"Invoice lines request: document_type={document_type}, document_number={document_number}, cursor={cursor}, limit={limit}, from_date={from_date}, to_date={to_date}")
     
     # Reuse the main get_history_lines function with filters
     return await get_history_lines(
         cursor=cursor,
         limit=limit,
+        from_date=from_date,
+        to_date=to_date,
         document_type=document_type,
         document_number=document_number,
         customer_code=None,
