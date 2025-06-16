@@ -6695,3 +6695,298 @@ cost_sync_done
 2025-06-16 14:04:52,251 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.410s
 2025-06-16 14:05:02,872 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
 2025-06-16 14:05:02,897 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.025s
+2025-06-16 14:10:03,099 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:10:03,116 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.017s
+2025-06-16 14:15:01,873 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:15:01,887 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.013s
+2025-06-16 14:20:03,137 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:20:03,157 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.020s
+2025-06-16 14:25:02,553 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:25:02,600 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.048s
+2025-06-16 14:30:02,842 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:30:02,875 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.033s
+2025-06-16 14:35:02,356 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:35:02,383 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.027s
+2025-06-16 14:40:02,810 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:40:02,868 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.058s
+2025-06-16 14:45:02,437 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:45:02,466 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.030s
+2025-06-16 14:46:16,779 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:46:16,803 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.024s
+2025-06-16 14:46:17,283 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:46:17,286 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=None, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:46:17,400 - routers.ledger_transactions - ERROR - Error fetching ledger transactions: 1 validation error for LedgerTransaction
+cheque_flag
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='\x00', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+2025-06-16 14:46:17,400 - routers.ledger_transactions - ERROR - Query parameters: cursor=None, limit=50, gdc=None, acc_number=None
+2025-06-16 14:46:17,401 - main - INFO - Response: GET /api/ledger-transactions - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.118s
+2025-06-16 14:46:17,401 - main - WARNING - Error response 500 for GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:46:18,554 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:46:18,555 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=None, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:46:18,589 - routers.ledger_transactions - ERROR - Error fetching ledger transactions: 1 validation error for LedgerTransaction
+cheque_flag
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='\x00', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+2025-06-16 14:46:18,590 - routers.ledger_transactions - ERROR - Query parameters: cursor=None, limit=50, gdc=None, acc_number=None
+2025-06-16 14:46:18,590 - main - INFO - Response: GET /api/ledger-transactions - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.036s
+2025-06-16 14:46:18,590 - main - WARNING - Error response 500 for GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:46:19,743 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:46:19,745 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=None, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:46:19,778 - routers.ledger_transactions - ERROR - Error fetching ledger transactions: 1 validation error for LedgerTransaction
+cheque_flag
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='\x00', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+2025-06-16 14:46:19,778 - routers.ledger_transactions - ERROR - Query parameters: cursor=None, limit=50, gdc=None, acc_number=None
+2025-06-16 14:46:19,778 - main - INFO - Response: GET /api/ledger-transactions - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.036s
+2025-06-16 14:46:19,779 - main - WARNING - Error response 500 for GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:49:32,561 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:49:32,589 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.028s
+2025-06-16 14:49:33,077 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:49:33,079 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=None, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:49:33,115 - routers.ledger_transactions - ERROR - Error fetching ledger transactions: 1 validation error for LedgerTransaction
+cheque_flag
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='\x00', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+2025-06-16 14:49:33,115 - routers.ledger_transactions - ERROR - Query parameters: cursor=None, limit=50, gdc=None, acc_number=None
+2025-06-16 14:49:33,116 - main - INFO - Response: GET /api/ledger-transactions - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.039s
+2025-06-16 14:49:33,116 - main - WARNING - Error response 500 for GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:49:34,282 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:49:34,284 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=None, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:49:34,318 - routers.ledger_transactions - ERROR - Error fetching ledger transactions: 1 validation error for LedgerTransaction
+cheque_flag
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='\x00', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+2025-06-16 14:49:34,318 - routers.ledger_transactions - ERROR - Query parameters: cursor=None, limit=50, gdc=None, acc_number=None
+2025-06-16 14:49:34,319 - main - INFO - Response: GET /api/ledger-transactions - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.036s
+2025-06-16 14:49:34,319 - main - WARNING - Error response 500 for GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:49:35,474 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:49:35,476 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=None, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:49:35,509 - routers.ledger_transactions - ERROR - Error fetching ledger transactions: 1 validation error for LedgerTransaction
+cheque_flag
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='\x00', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+2025-06-16 14:49:35,509 - routers.ledger_transactions - ERROR - Query parameters: cursor=None, limit=50, gdc=None, acc_number=None
+2025-06-16 14:49:35,510 - main - INFO - Response: GET /api/ledger-transactions - Status: 500 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.036s
+2025-06-16 14:49:35,510 - main - WARNING - Error response 500 for GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:03,280 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:50:03,304 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.024s
+2025-06-16 14:50:30,060 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:30,119 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.059s
+2025-06-16 14:50:30,570 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:30,571 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=None, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:50:30,623 - routers.ledger_transactions - INFO - Retrieved 50 ledger transactions
+2025-06-16 14:50:30,628 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.058s
+2025-06-16 14:50:33,834 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:33,836 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=MTM5MzQ5NQ==, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:50:33,912 - routers.ledger_transactions - INFO - Retrieved 50 ledger transactions
+2025-06-16 14:50:33,917 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.084s
+2025-06-16 14:50:38,096 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:38,098 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=MTM5ODY4Nw==, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:50:38,168 - routers.ledger_transactions - INFO - Retrieved 50 ledger transactions
+2025-06-16 14:50:38,173 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.077s
+2025-06-16 14:50:41,343 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:41,344 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=MTM5ODkzNg==, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:50:41,413 - routers.ledger_transactions - INFO - Retrieved 50 ledger transactions
+2025-06-16 14:50:41,418 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.075s
+2025-06-16 14:50:45,619 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:45,620 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=MTM5ODk4Ng==, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:50:45,694 - routers.ledger_transactions - INFO - Retrieved 50 ledger transactions
+2025-06-16 14:50:45,699 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.080s
+2025-06-16 14:50:49,886 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:49,888 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=MTM5OTAzNg==, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:50:49,963 - routers.ledger_transactions - INFO - Retrieved 50 ledger transactions
+2025-06-16 14:50:49,965 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.080s
+2025-06-16 14:50:54,150 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:54,151 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=MTM5OTA4Ng==, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:50:54,225 - routers.ledger_transactions - INFO - Retrieved 50 ledger transactions
+2025-06-16 14:50:54,229 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.079s
+2025-06-16 14:50:57,465 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 14:50:57,468 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=MTM5OTE2MA==, limit=50, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 14:50:57,526 - routers.ledger_transactions - INFO - Retrieved 50 ledger transactions
+2025-06-16 14:50:57,528 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.063s
+2025-06-16 14:55:02,456 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 14:55:02,482 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.027s
+2025-06-16 15:00:03,461 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:00:03,486 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.026s
+2025-06-16 15:00:04,027 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:00:04,053 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.025s
+2025-06-16 15:00:04,529 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:00:04,531 - routers.invoices - INFO - Invoice request: cursor=None, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:00:06,539 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:00:06,542 - database - WARNING - Query exceeded timeout threshold: 2.01s
+2025-06-16 15:00:06,707 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.178s
+2025-06-16 15:00:34,241 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:00:34,242 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEyNTU0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:00:35,873 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:00:35,977 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.736s
+2025-06-16 15:01:05,934 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:01:05,934 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzMDA0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:01:07,701 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:01:07,864 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.930s
+2025-06-16 15:01:34,805 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:01:34,805 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzNDU0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:01:36,555 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:01:36,719 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.914s
+2025-06-16 15:02:04,364 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:02:04,365 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzOTA0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:02:05,907 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:02:05,995 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.631s
+2025-06-16 15:02:32,659 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:02:32,659 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE0Mzg2Mw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:02:34,333 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:02:34,421 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.762s
+2025-06-16 15:03:01,101 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:03:01,101 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE0ODM2Mw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:03:02,769 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:03:02,898 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.797s
+2025-06-16 15:03:30,457 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:03:30,458 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE1Mjg2NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:03:32,021 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:03:32,132 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.675s
+2025-06-16 15:03:59,335 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:03:59,335 - routers.invoices - INFO - Invoice request: cursor=MzpJTkMwMDcxNw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:04:01,227 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:04:01,361 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.026s
+2025-06-16 15:04:29,087 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:04:29,087 - routers.invoices - INFO - Invoice request: cursor=NDpJQ0E0MTg1Nw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:04:30,651 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:04:30,760 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.673s
+2025-06-16 15:04:36,254 - main - INFO - Incoming request: GET /api/ping from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 15:04:36,272 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 0.018s
+2025-06-16 15:04:36,760 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 15:04:36,761 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=None, limit=4500, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 15:04:38,681 - routers.ledger_transactions - INFO - Retrieved 4500 ledger transactions
+2025-06-16 15:04:38,779 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 2.019s
+2025-06-16 15:04:42,668 - main - INFO - Incoming request: GET /api/ledger-transactions from 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6
+2025-06-16 15:04:42,670 - routers.ledger_transactions - INFO - Ledger transaction request: cursor=MTQwNDQwNw==, limit=4500, filters: gdc=None, acc_number=None, p_period=None, from_date=None, to_date=None
+2025-06-16 15:04:44,211 - routers.ledger_transactions - INFO - Retrieved 4500 ledger transactions
+2025-06-16 15:04:44,372 - main - INFO - Response: GET /api/ledger-transactions - Status: 200 - IP: 2c0f:ef18:448b:0:9069:6c96:a4ae:40a6 - Time: 1.704s
+2025-06-16 15:04:58,289 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:04:58,290 - routers.invoices - INFO - Invoice request: cursor=NDpJQ0E0NjM1Nw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:04:59,932 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:05:00,091 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.802s
+2025-06-16 15:05:02,961 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:05:02,988 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.028s
+2025-06-16 15:05:16,502 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:05:16,502 - routers.invoices - INFO - Invoice request: cursor=ODpQTkExNDA4NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:05:18,113 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:05:18,194 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.692s
+2025-06-16 15:05:18,738 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:05:18,739 - routers.invoices - INFO - Invoice request: cursor=ODpQTkExODU4NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:05:20,286 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:05:20,362 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.624s
+2025-06-16 15:05:20,888 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:05:20,890 - routers.invoices - INFO - Invoice request: cursor=ODpQTkEzMDM2MQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:05:22,606 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:05:22,699 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.811s
+2025-06-16 15:05:23,237 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:05:23,238 - routers.invoices - INFO - Invoice request: cursor=ODpQTkEzNDg2MQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:05:24,710 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:05:24,793 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.557s
+2025-06-16 15:05:25,387 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:05:25,388 - routers.invoices - INFO - Invoice request: cursor=ODpQTkMwMDc4Ng==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:05:27,046 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 15:05:27,142 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.755s
+2025-06-16 15:05:27,654 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 15:05:27,655 - routers.invoices - INFO - Invoice request: cursor=ODpQTkMwNTI4Ng==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 15:05:28,890 - routers.invoices - INFO - Retrieved 3180 invoices
+2025-06-16 15:05:28,993 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.339s
+2025-06-16 15:10:02,394 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:10:02,419 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.025s
+2025-06-16 15:15:02,757 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:15:02,782 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.025s
+2025-06-16 15:20:02,447 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:20:02,471 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.024s
+2025-06-16 15:25:02,359 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:25:02,382 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.024s
+2025-06-16 15:30:02,529 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:30:02,554 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.025s
+2025-06-16 15:35:02,649 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:35:02,673 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.024s
+2025-06-16 15:40:02,945 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:40:02,968 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.023s
+2025-06-16 15:45:02,839 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:45:02,866 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.027s
+2025-06-16 15:50:02,927 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:50:02,957 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.030s
+2025-06-16 15:55:02,625 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 15:55:02,653 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.028s
+2025-06-16 16:00:03,316 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 16:00:03,356 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.041s
+2025-06-16 16:00:03,891 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 16:00:03,908 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.017s
+2025-06-16 16:00:04,404 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:00:04,406 - routers.invoices - INFO - Invoice request: cursor=None, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:00:06,370 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:00:06,482 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 2.078s
+2025-06-16 16:00:35,150 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:00:35,151 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEyNTU0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:00:36,618 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:00:36,718 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.567s
+2025-06-16 16:01:05,987 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:01:05,987 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzMDA0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:01:07,638 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:01:07,729 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.742s
+2025-06-16 16:01:35,470 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:01:35,471 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzNDU0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:01:36,994 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:01:37,074 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.604s
+2025-06-16 16:02:06,505 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:02:06,506 - routers.invoices - INFO - Invoice request: cursor=MzpJTkEzOTA0OQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:02:07,986 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:02:08,093 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.588s
+2025-06-16 16:02:35,606 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:02:35,606 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE0Mzg2Mw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:02:37,142 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:02:37,257 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.651s
+2025-06-16 16:03:07,067 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:03:07,068 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE0ODM2Mw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:03:08,762 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:03:08,853 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.786s
+2025-06-16 16:03:36,963 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:03:36,963 - routers.invoices - INFO - Invoice request: cursor=MzpJTkE1Mjg2NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:03:38,561 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:03:38,665 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.703s
+2025-06-16 16:04:09,579 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:04:09,579 - routers.invoices - INFO - Invoice request: cursor=MzpJTkMwMDcxNw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:04:11,404 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:04:11,497 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.918s
+2025-06-16 16:04:39,128 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:04:39,129 - routers.invoices - INFO - Invoice request: cursor=NDpJQ0E0MTg1Nw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:04:40,727 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:04:40,839 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.711s
+2025-06-16 16:05:03,265 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 16:05:03,292 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.027s
+2025-06-16 16:05:10,513 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:05:10,513 - routers.invoices - INFO - Invoice request: cursor=NDpJQ0E0NjM1Nw==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:05:12,233 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:05:12,349 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.836s
+2025-06-16 16:05:27,887 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:05:27,887 - routers.invoices - INFO - Invoice request: cursor=ODpQTkExNDA4NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:05:29,287 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:05:29,407 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.520s
+2025-06-16 16:05:29,948 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:05:29,949 - routers.invoices - INFO - Invoice request: cursor=ODpQTkExODU4NA==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:05:31,403 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:05:31,502 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.554s
+2025-06-16 16:05:31,993 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:05:31,994 - routers.invoices - INFO - Invoice request: cursor=ODpQTkEzMDM2MQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:05:33,709 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:05:33,815 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.822s
+2025-06-16 16:05:34,327 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:05:34,328 - routers.invoices - INFO - Invoice request: cursor=ODpQTkEzNDg2MQ==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:05:35,665 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:05:35,750 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.423s
+2025-06-16 16:05:36,208 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:05:36,210 - routers.invoices - INFO - Invoice request: cursor=ODpQTkMwMDc4Ng==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:05:37,779 - routers.invoices - INFO - Retrieved 4500 invoices
+2025-06-16 16:05:37,864 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.656s
+2025-06-16 16:05:38,319 - main - INFO - Incoming request: GET /api/invoices from 13.247.230.43
+2025-06-16 16:05:38,321 - routers.invoices - INFO - Invoice request: cursor=ODpQTkMwNTI4Ng==, limit=4500, from_date=2019-06-01, to_date=2026-06-16, customer_code=None, document_type=None
+2025-06-16 16:05:39,512 - routers.invoices - INFO - Retrieved 3180 invoices
+2025-06-16 16:05:39,614 - main - INFO - Response: GET /api/invoices - Status: 200 - IP: 13.247.230.43 - Time: 1.295s
+2025-06-16 16:10:02,514 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 16:10:02,541 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.028s
+2025-06-16 16:15:03,015 - main - INFO - Incoming request: GET /api/ping from 13.247.230.43
+2025-06-16 16:15:03,043 - main - INFO - Response: GET /api/ping - Status: 200 - IP: 13.247.230.43 - Time: 0.028s

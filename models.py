@@ -483,3 +483,73 @@ class InventoryGroupQuery(BaseModel):
     cursor: Optional[str] = None
     limit: int = 50
     inv_group: Optional[str] = None
+
+# LedgerTransactions models
+class LedgerTransaction(BaseModel):
+    # Primary key field (required)
+    auto_number: int
+    
+    # Other fields (all optional)
+    gdc: Optional[str] = None
+    acc_number: Optional[str] = None
+    disc_flag: Optional[str] = None
+    curr_code: Optional[int] = None
+    spare: Optional[str] = None
+    p_period: Optional[int] = None
+    d_date: Optional[date] = None
+    e_type: Optional[int] = None
+    refrence: Optional[str] = None  # Note: keeping database spelling
+    job_code: Optional[str] = None
+    amount: Optional[float] = None
+    tax_amt: Optional[float] = None
+    this_curr_tax_amount: Optional[float] = None
+    bank_tax_amount: Optional[float] = None
+    curr_amt: Optional[float] = None
+    bank_curr_amount: Optional[float] = None
+    recon_flag: Optional[int] = None
+    description: Optional[str] = None
+    tax_type: Optional[int] = None
+    country: Optional[str] = None
+    generated: Optional[str] = None
+    pay_based: Optional[str] = None
+    user_id: Optional[int] = None
+    which_user_ref: Optional[str] = None
+    link_acc: Optional[str] = None
+    update_recon_flag: Optional[int] = None
+    cheque_flag: Optional[int] = None
+    link_id: Optional[int] = None
+    in_inv: Optional[int] = None
+    tax_report_date: Optional[date] = None
+    tax_report_period: Optional[int] = None
+    batch_id: Optional[int] = None
+    transaction_id: Optional[int] = None
+    exported: Optional[int] = None
+    export_ref: Optional[str] = None
+    export_num: Optional[int] = None
+    cost_sync_done: Optional[str] = None
+    
+    class Config:
+        from_attributes = True
+
+class LedgerTransactionResponse(BaseModel):
+    data: List[LedgerTransaction]
+    metadata: PaginationMetadata
+
+class LedgerTransactionQuery(BaseModel):
+    cursor: Optional[str] = None
+    limit: int = 50
+    # Filter fields
+    gdc: Optional[str] = None
+    acc_number: Optional[str] = None
+    p_period: Optional[int] = None
+    from_date: Optional[date] = None
+    to_date: Optional[date] = None
+    e_type: Optional[int] = None
+    refrence: Optional[str] = None
+    min_amount: Optional[float] = None
+    max_amount: Optional[float] = None
+    description: Optional[str] = None
+    link_id: Optional[int] = None
+    user_id: Optional[int] = None
+    transaction_id: Optional[int] = None
+    link_acc: Optional[str] = None

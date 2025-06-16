@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 import uvicorn
 from config import settings
-from routers import health, invoices, customers, delivery_addresses, history_lines, inventory, inventory_categories, inventory_groups
+from routers import health, invoices, customers, delivery_addresses, history_lines, inventory, inventory_categories, inventory_groups, ledger_transactions
 import time
 import json
 
@@ -164,6 +164,7 @@ app.include_router(history_lines.router, prefix="/api", tags=["history-lines"])
 app.include_router(inventory.router, prefix="/api", tags=["inventory"])
 app.include_router(inventory_categories.router, prefix="/api", tags=["inventory-categories"])
 app.include_router(inventory_groups.router, prefix="/api", tags=["inventory-groups"])
+app.include_router(ledger_transactions.router, prefix="/api", tags=["ledger-transactions"])
 
 @app.get("/")
 async def root():
